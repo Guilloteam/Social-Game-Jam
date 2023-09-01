@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
-  m_Name: Test Questline
+  m_Script: {fileID: 11500000, guid: 14fea8eb4196faa4d886fbff85170c31, type: 3}
+  m_Name: Money Variable
   m_EditorClassIdentifier: 
-  entries: []
+  display_name: Argent
+  min: 0
+  max: 1

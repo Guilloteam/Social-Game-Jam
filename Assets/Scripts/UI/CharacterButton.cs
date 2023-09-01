@@ -7,10 +7,12 @@ public class CharacterButton : MonoBehaviour
 {
     public CharacterConfig character;
     public Button button;
+    
     private void Start()
     {
         button.onClick.AddListener(() => {
-            // = QuestlineManager.instance.PickDialogue(character);
+            DialogueEntry entry = QuestlineManager.instance.PickDialogue(character);
+            
         });
     }
 }
