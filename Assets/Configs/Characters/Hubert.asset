@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hubert
   m_EditorClassIdentifier: 
   name: Hubert
-  sprite: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: 19a51a092d3e04547a1bc8d795b84c3c, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 703fdac6c970e2e47b6662dc753920cb, type: 3}
   tooltip: 
   default_dialogue: {fileID: 0}
