@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
   m_Name: Scenario1_Housing1
   m_EditorClassIdentifier: 
+  play_mode: 0
   entries:
   - dialogue_line: Oui hallo ?
     unlocks: []
@@ -23,23 +24,41 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Bonjour ! Merci de votre appel. Je re\xE7ois beaucoup de r\xE9ponse
-      \xE0 mon annonce. Occupez-vous un travail ?"
+  - dialogue_line: MMM EJ SREOCI PAUUECBO ED IORSSSED MIAS VSOU OPVEZU M OREYVNE
+      PRA ALMI TVORE NEEIRDR AVSI D IOMTSNIIOP SAIIN EUQ SVO FSEHCI DE PYEA DES OISTR
+      ERSNDEIR ISMO ANTOEINTT OSVU DEEZV NBIE RNAEGG RSTOI FISO LE ATMOTNN DU OERYL
+      C EST ONN IANCELEOGB
     unlocks:
     - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
-    - answer: Non malheureusement...
+    - answer: "Mince, je ne comprends pas... Thierry tu peux me traduire s'il-te-pla\xEEt
+        ?"
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: Malheureusement il vous en faut un... Bon courage
+  - dialogue_line: "Mmm je re\xE7ois beaucoup de dossiers. Mais vous pouvez m\u2019envoyer
+      par mail votre dernier avis d\u2019imposition ainsi que vos fiches de paye
+      des trois derniers mois. Attention, vous devez bien gagner trois fois le montant
+      du loyer, c\u2019est non n\xE9gociable."
+    unlocks:
+    - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
+    character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
+    answers:
+    - answer: "Je suis encore en recherche d'emploi. Est-ce \xE7a peut le faire pour
+        vous ?"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "D\xE9sol\xE9, \xE7a ne sera pas possible. Au revoir."
     unlocks: []
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
-    - answer: Non malheureusement...
+    - answer: ...
       conditions: []
       effects: []
       dialogue_entries: []
