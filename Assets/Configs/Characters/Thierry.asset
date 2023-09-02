@@ -17,4 +17,9 @@ MonoBehaviour:
   minimap_icon: {fileID: 21300000, guid: ec17bd952e5e5d34dbbc902cb890b7c5, type: 3}
   tooltip: "A rencontr\xE9 Emily pendant leur Erasmus. Ils ont r\xE9cemment nou\xE9
     une relation amoureuse."
-  default_dialogue: {fileID: 0}
+  default_dialogue:
+  - dialogue_line: "Hey, Comment \xE7a va ?"
+    unlocks: []
+    character: {fileID: 11400000}
+    answers: []
+    checkpoint: 0
