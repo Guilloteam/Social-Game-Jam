@@ -13,22 +13,29 @@ MonoBehaviour:
   m_Name: Scenario1_Housing2
   m_EditorClassIdentifier: 
   entries:
-  - dialogue_line: Oui bonjour Emily, c'est Monsieur Gervais
+  - dialogue_line: 
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: 'Bonjour Monsieur Gervais '
+    - answer: "Bonjour Monsieur ! Kevin m\u2019a parl\xE9 de votre appartement. Je
+        l\u2019ai visit\xE9, \xE7a correspond vraiment \xE0 ce que je recherche et
+        l\u2019ambiance entre colocs est super ! Est-ce que vous avez pu regarder
+        le dossier que je vous ai envoy\xE9 ? "
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Je vous appelle pour vous informer que votre dossier a bien \xE9t\xE9
-      accept\xE9"
+  - dialogue_line: "Mais oui, j\u2019ai bien re\xE7u ! \xC9coutez, pour moi tout
+      est ok, votre situation m\u2019a l\u2019air stable. Et je fais confiance \xE0
+      Kevin, c\u2019est un tr\xE8s bon locataire\u2026 m\xEAme s\u2019il sent assez
+      fort le fromage\u2026il a toujours ramen\xE9 des gens s\xE9rieux dans cet appartement.
+      Vous \xEAtes disponible lundi prochain pour que je vous remette les cl\xE9s
+      ?"
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: Merci Monsieur Gervais !
+    - answer: ...
       conditions: []
       effects: []
       dialogue_entries: []

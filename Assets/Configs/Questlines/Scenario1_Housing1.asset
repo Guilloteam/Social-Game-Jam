@@ -25,7 +25,8 @@ MonoBehaviour:
     checkpoint: 0
   - dialogue_line: "Bonjour ! Merci de votre appel. Je re\xE7ois beaucoup de r\xE9ponse
       \xE0 mon annonce. Occupez-vous un travail ?"
-    unlocks: []
+    unlocks:
+    - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
     - answer: Non malheureusement...

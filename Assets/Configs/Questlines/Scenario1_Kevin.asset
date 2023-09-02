@@ -13,25 +13,27 @@ MonoBehaviour:
   m_Name: Scenario1_Kevin
   m_EditorClassIdentifier: 
   entries:
-  - dialogue_line: "Salut Emily, \xE7a va ?"
+  - dialogue_line: "Salut Emily, comment \xE7a va ta prise de poste ?"
     unlocks: []
     character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
     answers:
-    - answer: "Salut Kevin ! Yes \xE7a va, j'ai commenc\xE9 \xE0 chercher un logement
-        l\xE0"
+    - answer: "\xC7a va, l\u2019\xE9quipe est super ! Seuls points noirs, \xE7a sent
+        tout le temps le fromage dans les bureaux. Et puis je mets une \xE9ternit\xE9
+        \xE0 venir le matin. L\u2019appart de mon copain est trop loin, j\u2019esp\xE8re
+        me rapprocher rapidement. "
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Mais non ?! Si jamais, on a une place qui se lib\xE8re dans notre
-      coloc. Patrick laisse sa chambre et on cherche quelqu'un pour prendre sa suite.
-      Il suffit d'envoyer ton dossier au propri\xE9taire et on lui dra qu'on te connait."
+  - dialogue_line: "Ahah oui, l\u2019odeur de fromage, \xE7a fait tout dr\xF4le au
+      d\xE9but, mais on s\u2019habitue. Mais en vrai, si tu cherches un appart, il
+      y a une place qui se lib\xE8re dans ma coloc. C\u2019est \xE0 20 minutes du
+      boulot, en plus. Tu vas voir, \xE7a te changera la vie !"
     unlocks: []
     character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
     answers:
-    - answer: "Ah ouais trop cool, \xE7a m'int\xE9resse ! Est-ce que tu peux me donner
-        ses coordonn\xE9es ?"
+    - answer: "\xC7a serait g\xE9nial ! Je peux venir visiter ?"
       conditions: []
       effects: []
       dialogue_entries: []

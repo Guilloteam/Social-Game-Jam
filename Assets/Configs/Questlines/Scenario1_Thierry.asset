@@ -13,27 +13,60 @@ MonoBehaviour:
   m_Name: Scenario1_Thierry
   m_EditorClassIdentifier: 
   entries:
-  - dialogue_line: "Salut Emily, trop heureux que tu sois l\xE0 ! J'esp\xE8re que
-      tu as pass\xE9 un bon voyage."
+  - dialogue_line: 
     unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
-    - answer: "Un peu crev\xE9e mais \xE7a va. Je suis super contente d'\xEAtre l\xE0,
-        j'ai h\xE2te de d\xE9couvrir la France."
+    - answer: "Thierry ! Tellement heureuse d\u2019enfin te rejoindre mon amour ! "
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Tu peux rester \xE0 l'appart le temps que tu trouves un travail
-      et un logement. D'ailleurs j'ai vu une annonce en ligne, tu devrais contacter
-      le propri\xE9taire !"
-    unlocks:
-    - {fileID: 11400000, guid: fceeb27031b7746ae913163e326913e9, type: 2}
-    - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
+  - dialogue_line: "Oh moi aussi, bienvenue en France ma ch\xE9rie ! \n"
+    unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
-    - answer: "Bonne id\xE9e, je vais faire \xE7a"
+    - answer: "Trop bien ton appartement ! Merci de m'accueillir, tu es s\xFBr que
+        \xE7a ne te d\xE9range pas? "
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Non pas du tout, au contraire. Et tu verras, toi aussi bient\xF4t
+      tu trouveras un chouette appartement dans le quartier j\u2019esp\xE8re. \n\n"
+    unlocks: []
+    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+    answers:
+    - answer: "Tu crois ? Je suis un peu perdue, j\u2019avoue que je n\u2019ai rien
+        regard\xE9. Et puis je ne sais pas trop chercher, tu connais mon niveau de
+        fran\xE7ais\u2026"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Mais oui, je vais rep\xE9rer un peu des annonces pour toi, je
+      connais les bons plans. Et pour le travail, tu as r\xE9fl\xE9chi un peu \xE0
+      ce que tu voulais faire ? \n"
+    unlocks: []
+    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+    answers:
+    - answer: "Pas tant que \xE7a, je cherche un job dans la com, tu aurais des id\xE9es
+        ?"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Il faut absolument que je te pr\xE9sente mon amie Lauranne. Elle
+      est recruteuse dans une grosse bo\xEEte, Baguette incorporated.\n"
+    unlocks:
+    - {fileID: 11400000, guid: fceeb27031b7746ae913163e326913e9, type: 2}
+    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+    answers:
+    - answer: "Ouah ! G\xE9nial, trop h\xE2te !"
       conditions: []
       effects: []
       dialogue_entries: []
