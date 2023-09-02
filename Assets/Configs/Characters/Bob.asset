@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Bob
   m_EditorClassIdentifier: 
   name: Bob
-  sprite: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: ec17bd952e5e5d34dbbc902cb890b7c5, type: 3}
+  minimap_icon: {fileID: 21300000, guid: a2ac2194de5297649be49531f113fffa, type: 3}
   tooltip: 
   default_dialogue: {fileID: 0}

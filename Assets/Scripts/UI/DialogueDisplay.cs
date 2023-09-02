@@ -10,6 +10,8 @@ public class DialogueDisplay : MonoBehaviour
     public TMPro.TextMeshProUGUI dialogue_line_text;
     public AnswerDisplay answer_display_prefab;
     public RectTransform answer_panel;
+    public Image character_portrait;
+    public TMPro.TextMeshProUGUI character_name_text;
 
     private List<AnswerDisplay> displayed_answers = new List<AnswerDisplay>();
 
@@ -22,6 +24,8 @@ public class DialogueDisplay : MonoBehaviour
     public void UpdateDisplay()
     {
         dialogue_line_text.text = entry.dialogue_line;
+        character_portrait.sprite = entry.character.dialogue_portrait;
+        character_name_text.text = entry.character.name;
 
         for (int i = 0; i < displayed_answers.Count; i++)
         {
@@ -55,9 +59,7 @@ public class DialogueDisplay : MonoBehaviour
                         entry = questline_state.current_dialogue_entry;
                         UpdateDisplay();
                     }
-
                 };
-
             }
         }
 
