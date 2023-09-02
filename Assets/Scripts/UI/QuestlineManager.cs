@@ -23,7 +23,7 @@ public class QuestlineState
     {
         get
         {
-            if(step_stack.Count == 0 || questline.entries.Length <= step_stack[0].sequence_cursor)
+            if(step_stack.Count == 0 || questline == null || questline.entries.Length <= step_stack[0].sequence_cursor)
                 return null;
             DialogueEntry entry = questline.entries[step_stack[0].sequence_cursor];
             for(int j=1; j<step_stack.Count;j++)
@@ -85,14 +85,23 @@ public class QuestlineState
 
     public void OnDialogueEnd()
     {
-        if (last_checkpoint == null)
-            step_stack = new List<StepStackElement> { new StepStackElement { } };
-        else
+        switch(questline.play_mode)
         {
-            step_stack = new List<StepStackElement>(last_checkpoint.Length);
-            for (int i = 0; i < last_checkpoint.Length; i++)
-                step_stack.Add(last_checkpoint[i]);
-
+            case QuestlinePlaymode.PlayOnce:
+                break;
+            case QuestlinePlaymode.Loop:
+                step_stack = new List<StepStackElement> { new StepStackElement { } };
+                break;
+            case QuestlinePlaymode.Checkpoint:
+                if (last_checkpoint == null)
+                    step_stack = new List<StepStackElement> { new StepStackElement { } };
+                else
+                {
+                    step_stack = new List<StepStackElement>(last_checkpoint.Length);
+                    for (int i = 0; i < last_checkpoint.Length; i++)
+                        step_stack.Add(last_checkpoint[i]);
+                }
+                break;
         }
     }
 }
@@ -129,9 +138,17 @@ public class QuestlineManager : MonoBehaviour
 
     public void UpdateUnlockedCharacterList()
     {
+        for(int i=questline_states.Count-1; i>=0; i--)
+        {
+            if (questline_states[i].current_dialogue_entry == null)
+                questline_states.RemoveAt(i);
+        }
         for(int i=0; i < questline_states.Count; i++)
         {
-            var character = questline_states[i].current_dialogue_entry.character;
+            DialogueEntry dialogue_entry = questline_states[i].current_dialogue_entry;
+            if (dialogue_entry == null)
+                continue;
+            var character = dialogue_entry.character;
             if (!unlocked_characters.Contains(character))
             {
                 unlocked_characters.Add(character);
