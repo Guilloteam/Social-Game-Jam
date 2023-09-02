@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Cousin Fergus
   m_EditorClassIdentifier: 
   name: Cousin Fergus
-  dialogue_portrait: {fileID: 0}
-  minimap_icon: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: d229799919823cd4baf5e325229c095d, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 2d434944185912e4cabf4068be5621d0, type: 3}
   tooltip: 
-  default_dialogue: {fileID: 0}
+  default_dialogue:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 0}
+    answers: []
+    checkpoint: 0

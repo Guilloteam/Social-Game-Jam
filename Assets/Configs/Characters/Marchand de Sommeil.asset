@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
-  m_Name: Hubert
+  m_Name: Marchand de Sommeil
   m_EditorClassIdentifier: 
-  name: Hubert
-  dialogue_portrait: {fileID: 21300000, guid: 19a51a092d3e04547a1bc8d795b84c3c, type: 3}
-  minimap_icon: {fileID: 21300000, guid: 703fdac6c970e2e47b6662dc753920cb, type: 3}
+  name: Monsieur Slumlord
+  dialogue_portrait: {fileID: 21300000, guid: eb681951f1d8b5d448ca4f8080eb8eba, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 508d50c2cdff2764ea061c5a62ca846c, type: 3}
   tooltip: 
-  default_dialogue: {fileID: 0}
+  default_dialogue: []

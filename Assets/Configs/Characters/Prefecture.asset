@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Prefecture
   m_EditorClassIdentifier: 
   name: 
-  dialogue_portrait: {fileID: 0}
-  minimap_icon: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: 0f4c3e38965cfbf49884ebe4e1d74ab5, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 9b1a5202b30ecc347b99ccf9a186309e, type: 3}
   tooltip: 
-  default_dialogue: {fileID: 0}
+  default_dialogue:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 0}
+    answers: []
+    checkpoint: 0
