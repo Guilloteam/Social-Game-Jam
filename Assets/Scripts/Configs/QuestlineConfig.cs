@@ -40,19 +40,14 @@ public struct BranchResultConfig
 }
 
 [System.Serializable]
-public class BranchConfig
-{
-    public BranchResultConfig[] options;
-}
-
-[System.Serializable]
 public class DialogueEntry
 {
     [TextArea(3, 5)]
     public string dialogue_line;
     public QuestlineConfig[] unlocks;
     public CharacterConfig character;
-    public BranchConfig answers;
+    public BranchResultConfig[] answers;
+    public bool checkpoint;
 }
 
 [CreateAssetMenu()]
