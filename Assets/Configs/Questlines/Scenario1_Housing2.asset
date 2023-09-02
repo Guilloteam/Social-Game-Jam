@@ -28,17 +28,7 @@ MonoBehaviour:
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: ...
-      conditions: []
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
-  - dialogue_line: Merci Monsieur Gervais !
-    unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
-    answers:
-    - answer: ...
+    - answer: Merci Monsieur Gervais !
       conditions: []
       effects: []
       dialogue_entries: []
