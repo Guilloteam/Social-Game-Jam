@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Scenario2_CityHall
   m_EditorClassIdentifier: 
   play_mode: 0
-  entries: []
+  entries:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 11400000, guid: c9120d233f53b4fc2a7fcd2fb30bf5bf, type: 2}
+    answers: []
+    checkpoint: 0

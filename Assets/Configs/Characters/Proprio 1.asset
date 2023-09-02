@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Proprio 1
   m_EditorClassIdentifier: 
   name: "Propri\xE9taire n\xB01"
-  dialogue_portrait: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
-  minimap_icon: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
+  dialogue_portrait: {fileID: 21300000, guid: ba27f3cab99195e4ea98b77283013358, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 965129e35ea4f9e43800fb90a39e9022, type: 3}
   tooltip: 
-  default_dialogue: {fileID: 0}
+  default_dialogue:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 0}
+    answers: []
+    checkpoint: 0
