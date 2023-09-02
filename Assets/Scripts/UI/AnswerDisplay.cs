@@ -14,6 +14,12 @@ public class AnswerDisplay : MonoBehaviour
     public void Start()
     {
         text.text = answer_config.answer;
-        button.onClick.AddListener(() => { answer_selected_delegate?.Invoke(); });
+        if(button != null)
+            button.onClick.AddListener(() => { answer_selected_delegate?.Invoke(); });
+    }
+
+    private void Update()
+    {
+        text.text = answer_config.answer;
     }
 }
