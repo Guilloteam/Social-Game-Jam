@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Monsieur Gervais
   m_EditorClassIdentifier: 
   name: Monsieur Gervais
-  sprite: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
   tooltip: "Propri\xE9taire de Kevin et Lucia"
   default_dialogue: {fileID: 0}

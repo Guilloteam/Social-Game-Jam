@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Proprio 1
   m_EditorClassIdentifier: 
   name: "Propri\xE9taire n\xB01"
-  sprite: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
   tooltip: 
   default_dialogue: {fileID: 0}
