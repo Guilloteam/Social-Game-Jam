@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
   m_Name: Scenario1_Thierry
   m_EditorClassIdentifier: 
+  play_mode: 0
   entries:
-  - dialogue_line: 
+  - dialogue_line: Emily ! T'as fais bon voyage ?
     unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
