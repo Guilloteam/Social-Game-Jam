@@ -13,8 +13,34 @@ MonoBehaviour:
   m_Name: Scenario1_Housing
   m_EditorClassIdentifier: 
   entries:
-  - dialogue_line: Salut Emily, j'ai une place dans ma coloc si tu veux
+  - dialogue_line: Oui hallo ?
     unlocks: []
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
-    answers: []
+    character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
+    answers:
+    - answer: "Bonjour, je vous appelle concernant votre annonce. Je suis super int\xE9ress\xE9e."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Bonjour ! Merci de votre appel. Je re\xE7ois beaucoup de r\xE9ponse
+      \xE0 mon annonce. Occupez-vous un travail ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
+    answers:
+    - answer: Non malheureusement...
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: Malheureusement il vous en faut un... Bon courage
+    unlocks: []
+    character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
+    answers:
+    - answer: Non malheureusement...
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
     checkpoint: 0

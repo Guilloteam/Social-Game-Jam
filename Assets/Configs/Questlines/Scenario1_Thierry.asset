@@ -13,23 +13,27 @@ MonoBehaviour:
   m_Name: Scenario1_Thierry
   m_EditorClassIdentifier: 
   entries:
-  - dialogue_line: Salut Emily, il va falloir te trouver un taf et un logement
+  - dialogue_line: "Salut Emily, trop heureux que tu sois l\xE0 ! J'esp\xE8re que
+      tu as pass\xE9 un bon voyage."
     unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
-    - answer: Ok chef
+    - answer: "Un peu crev\xE9e mais \xE7a va. Je suis super contente d'\xEAtre l\xE0,
+        j'ai h\xE2te de d\xE9couvrir la France."
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Ok, pour le taf, va voir ma pote Lauranne et pour le logement
-      demande \xE0 Kevin."
+  - dialogue_line: "Tu peux rester \xE0 l'appart le temps que tu trouves un travail
+      et un logement. D'ailleurs j'ai vu une annonce en ligne, tu devrais contacter
+      le propri\xE9taire !"
     unlocks:
     - {fileID: 11400000, guid: fceeb27031b7746ae913163e326913e9, type: 2}
+    - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
-    - answer: Ok chef
+    - answer: "Bonne id\xE9e, je vais faire \xE7a"
       conditions: []
       effects: []
       dialogue_entries: []

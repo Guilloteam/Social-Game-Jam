@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Lauranne
   sprite: {fileID: 0}
-  tooltip: 
+  tooltip: "Amie de Thierry. Elle est DRH dans l'entreprise ... et propose \xE0 Emily
+    un poste."
   default_dialogue: {fileID: 0}

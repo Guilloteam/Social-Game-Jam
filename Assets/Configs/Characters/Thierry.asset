@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Thierry
   sprite: {fileID: 0}
-  tooltip: 
+  tooltip: "A rencontr\xE9 Emily pendant leur Erasmus. Ils ont r\xE9cemment nou\xE9
+    une relation amoureuse."
   default_dialogue: {fileID: 0}

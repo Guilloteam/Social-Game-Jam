@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
-  m_Name: Kevin
+  m_Name: Proprio 1
   m_EditorClassIdentifier: 
-  name: Kevin
+  name: "Propri\xE9taire n\xB01"
   sprite: {fileID: 0}
-  tooltip: "Coll\xE8gue de travail d'Emily. Il est lui aussi \xE9tranger et a une
-    place dans sa coloc."
+  tooltip: 
   default_dialogue: {fileID: 0}
