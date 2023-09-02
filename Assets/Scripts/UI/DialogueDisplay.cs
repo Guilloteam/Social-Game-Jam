@@ -5,8 +5,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(CanvasGroup))]
 public class DialogueDisplay : MonoBehaviour
 {
+    private CanvasGroup canvas_group;
     public DialogueEntry entry;
     public DialogueBubbleAnim dialogue_line_anim;
     public DialogueBubbleAnim single_answer_anim;
@@ -25,14 +27,20 @@ public class DialogueDisplay : MonoBehaviour
 
     IEnumerator Start()
     {
+        canvas_group = GetComponent<CanvasGroup>();
+        character_portrait.sprite = entry.character.dialogue_portrait;
+        character_name_text.text = entry.character.name;
+        for (float time = 0; time < fade_duration; time += Time.deltaTime)
+        { 
+            canvas_group.alpha = time / fade_duration;
+            yield return null;
+        }
+        canvas_group.alpha = 1;
         yield return UpdateDisplay();
     }
 
     public IEnumerator UpdateDisplay()
     {
-        character_portrait.sprite = entry.character.dialogue_portrait;
-        character_name_text.text = entry.character.name;
-
         for (int i = 0; i < displayed_answers.Count; i++)
         {
             Destroy(displayed_answers[i].gameObject);
@@ -107,7 +115,7 @@ public class DialogueDisplay : MonoBehaviour
         if(current_entry == null || current_entry.character != entry.character)
         {
             questline_state.OnDialogueEnd();
-            Destroy(gameObject);
+            StartCoroutine(DestroyCoroutine());
             QuestlineManager.instance.UpdateUnlockedCharacterList();
         }
         else
@@ -115,5 +123,16 @@ public class DialogueDisplay : MonoBehaviour
             entry = questline_state.current_dialogue_entry;
             StartCoroutine(UpdateDisplay());
         }
+    }
+
+    public IEnumerator DestroyCoroutine()
+    {
+        for (float time = 0; time < fade_duration; time += Time.deltaTime)
+        { 
+            canvas_group.alpha = 1 - time / fade_duration;
+            yield return null;
+        }
+        canvas_group.alpha = 0;
+        Destroy(gameObject);
     }
 }

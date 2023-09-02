@@ -35,7 +35,6 @@ public class CharacterButton : MonoBehaviour
                     dialogue_display.entry = entry;
                 }
             });
-
         }
     }
 
