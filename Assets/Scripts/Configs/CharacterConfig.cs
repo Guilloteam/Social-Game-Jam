@@ -6,7 +6,8 @@ using UnityEngine;
 public class CharacterConfig: ScriptableObject 
 {
     public new string name;
-    public Sprite sprite;
+    public Sprite dialogue_portrait;
+    public Sprite minimap_icon;
     [TextAreaAttribute(3, 5)]
     public string tooltip;
     public QuestlineConfig default_dialogue;

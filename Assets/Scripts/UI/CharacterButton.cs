@@ -7,12 +7,14 @@ public class CharacterButton : MonoBehaviour
 {
     public CharacterConfig character;
     public Button button;
+    public Image character_icon;
     public TMPro.TextMeshProUGUI name_text;
     public DialogueDisplay dialogue_display_prefab;
     
     private void Start()
     {
         name_text.text = character.name;
+        character_icon.sprite = character.minimap_icon;
         button.gameObject.SetActive(QuestlineManager.instance.unlocked_characters.Contains(character));
         QuestlineManager.instance.character_unlock_delegate += (CharacterConfig character) =>
         {
@@ -23,10 +25,13 @@ public class CharacterButton : MonoBehaviour
         };
 
         button.onClick.AddListener(() => {
-            DialogueEntry entry = QuestlineManager.instance.PickQuestline(character).current_dialogue_entry;
-            DialogueDisplay dialogue_display = Instantiate(dialogue_display_prefab, PanelSlotManager.instance.dialogue_panel);
-            dialogue_display.entry = entry;
-            
+            QuestlineState questline = QuestlineManager.instance.PickQuestline(character);
+            if(questline != null)
+            {
+                DialogueEntry entry = questline.current_dialogue_entry;
+                DialogueDisplay dialogue_display = Instantiate(dialogue_display_prefab, PanelSlotManager.instance.dialogue_panel);
+                dialogue_display.entry = entry;
+            }
         });
     }
 }
