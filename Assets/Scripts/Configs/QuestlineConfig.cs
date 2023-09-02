@@ -100,9 +100,15 @@ public class DialogueEntry
     public bool checkpoint;
 }
 
+public enum QuestlinePlaymode
+{
+    PlayOnce, Loop, Checkpoint
+}
+
 [CreateAssetMenu()]
 public class QuestlineConfig : ScriptableObject 
 {
+    public QuestlinePlaymode play_mode;
     public DialogueEntry[] entries;
 }
 

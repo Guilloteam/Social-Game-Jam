@@ -23,10 +23,13 @@ public class CharacterButton : MonoBehaviour
         };
 
         button.onClick.AddListener(() => {
-            DialogueEntry entry = QuestlineManager.instance.PickQuestline(character).current_dialogue_entry;
-            DialogueDisplay dialogue_display = Instantiate(dialogue_display_prefab, PanelSlotManager.instance.dialogue_panel);
-            dialogue_display.entry = entry;
-            
+            QuestlineState questline = QuestlineManager.instance.PickQuestline(character);
+            if(questline != null)
+            {
+                DialogueEntry entry = questline.current_dialogue_entry;
+                DialogueDisplay dialogue_display = Instantiate(dialogue_display_prefab, PanelSlotManager.instance.dialogue_panel);
+                dialogue_display.entry = entry;
+            }
         });
     }
 }
