@@ -5,7 +5,7 @@ using UnityEngine;
 
 public enum ConditionType
 {
-    None, Variable 
+    None, Variable, Character_Unlock
 }
 
 public enum ConditionOperator
@@ -25,7 +25,44 @@ public struct ConditionConfig
 {
     public ConditionType condition_type;
     public ConditionOperator condition_operator;
+    public VariableConfig variable;
     public int condition_value;
+    public CharacterConfig character_value;
+    public bool expected_unlock_state;
+    public bool is_condition_filled
+    {
+        get
+        {
+            switch(condition_type)
+            {
+                case ConditionType.None: return true;
+                case ConditionType.Variable:
+                    int value = QuestlineManager.instance.GetVariable(variable);
+
+                    switch(condition_operator)
+                    {
+                        case ConditionOperator.Equal:
+                            return value == condition_value;
+                        case ConditionOperator.Different:
+                            return value != condition_value;
+                        case ConditionOperator.SuperiorOrEqual:
+                            return value >= condition_value;
+                        case ConditionOperator.InferiorOrEqual:
+                            return value <= condition_value;
+                        case ConditionOperator.StrictlyInferior:
+                            return value < condition_value;
+                        case ConditionOperator.StrictlySuperior:
+                            return value > condition_value;
+                        default:
+                            return true;
+                    }
+                case ConditionType.Character_Unlock:
+                    return QuestlineManager.instance.unlocked_characters.Contains(character_value) == expected_unlock_state;
+                default:
+                    return true;
+            }
+        }
+    }
 }
 
 [System.Serializable]
@@ -37,6 +74,19 @@ public struct BranchResultConfig
     public ScenarioStepEffect[] effects;
     public DialogueEntry[] dialogue_entries;
     public QuestlineConfig[] unlocks;
+
+    public bool is_available 
+    { 
+        get
+        {
+            for(int i=0; i<conditions.Length; i++)
+            {
+                if(!conditions[i].is_condition_filled)
+                    return false;
+            }
+            return true;
+        }
+    }
 }
 
 [System.Serializable]

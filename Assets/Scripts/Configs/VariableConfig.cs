@@ -7,4 +7,5 @@ public class VariableConfig : ScriptableObject
 {
     public string display_name;
     public int min, max;
+    internal int default_value;
 }

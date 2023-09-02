@@ -43,6 +43,12 @@ public class QuestlineState
         {
             entry = entry.answers[step_stack[i].answer_index].dialogue_entries[step_stack[i].sequence_cursor];
         }
+        foreach (QuestlineConfig questline in entry.answers[answer_index].unlocks)
+            QuestlineManager.instance.questline_states.Add(new QuestlineState { questline = questline, step_stack = new List<StepStackElement> { new StepStackElement { } } });
+        foreach(ScenarioStepEffect effect in entry.answers[answer_index].effects)
+        {
+            QuestlineManager.instance.ApplyScenarioEffect(effect);
+        }
         if (entry.answers[answer_index].dialogue_entries.Length > 0)
         {
             step_stack.Add(new StepStackElement { answer_index = answer_index, sequence_cursor = 0});
@@ -91,18 +97,12 @@ public class QuestlineState
     }
 }
 
-[System.Serializable]
-public struct PlayerState
-{
-    public int money;
-    public int rent;
-}
-
 public class QuestlineManager : MonoBehaviour
 {
     public static QuestlineManager instance;
     public QuestlineConfig[] questlines;
     public QuestlineConfig[] initial_questlines;
+    public Dictionary<VariableConfig, int> variables = new Dictionary<VariableConfig, int>();
 
     public List<QuestlineState> questline_states = new List<QuestlineState>();
 
@@ -118,6 +118,15 @@ public class QuestlineManager : MonoBehaviour
         UpdateUnlockedCharacterList();
     }
 
+    public int GetVariable(VariableConfig variable)
+    {
+        if(!variables.ContainsKey(variable))
+        {
+            variables.Add(variable, variable.default_value);
+        }
+        return variables[variable];
+    }
+
     public void UpdateUnlockedCharacterList()
     {
         for(int i=0; i < questline_states.Count; i++)
@@ -129,6 +138,11 @@ public class QuestlineManager : MonoBehaviour
                 character_unlock_delegate?.Invoke(character);
             }
         }
+    }
+
+    public void ApplyScenarioEffect(ScenarioStepEffect effect)
+    {
+        variables[effect.variable] = GetVariable(effect.variable) + effect.to_add;
     }
 
     public QuestlineState PickQuestline(CharacterConfig character)

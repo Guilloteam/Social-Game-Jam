@@ -30,31 +30,35 @@ public class DialogueDisplay : MonoBehaviour
         displayed_answers.Clear();
         for(int i=0; i<entry.answers.Length; i++)
         {
-            AnswerDisplay answer_display = Instantiate(answer_display_prefab, answer_panel);
-            displayed_answers.Add(answer_display);
-            answer_display.answer_config = entry.answers[i];
-            int answer_index = i;
-            answer_display.answer_selected_delegate += () =>
+            if (entry.answers[i].is_available)
             {
-                QuestlineState questline_state = QuestlineManager.instance.PickQuestline(entry.character);
-                questline_state.SelectAnswer(answer_index);
-                DialogueEntry current_entry = questline_state.current_dialogue_entry;
-                if(current_entry != null)
-                    QuestlineManager.instance.UnlockQuestlines(current_entry.unlocks);
-                
-                if(current_entry == null || current_entry.character != entry.character)
+                AnswerDisplay answer_display = Instantiate(answer_display_prefab, answer_panel);
+                displayed_answers.Add(answer_display);
+                answer_display.answer_config = entry.answers[i];
+                int answer_index = i;
+                answer_display.answer_selected_delegate += () =>
                 {
-                    questline_state.OnDialogueEnd();
-                    Destroy(gameObject);
-                    QuestlineManager.instance.UpdateUnlockedCharacterList();
-                }
-                else
-                {
-                    entry = questline_state.current_dialogue_entry;
-                    UpdateDisplay();
-                }
+                    QuestlineState questline_state = QuestlineManager.instance.PickQuestline(entry.character);
+                    questline_state.SelectAnswer(answer_index);
+                    DialogueEntry current_entry = questline_state.current_dialogue_entry;
+                    if(current_entry != null)
+                        QuestlineManager.instance.UnlockQuestlines(current_entry.unlocks);
+                    
+                    if(current_entry == null || current_entry.character != entry.character)
+                    {
+                        questline_state.OnDialogueEnd();
+                        Destroy(gameObject);
+                        QuestlineManager.instance.UpdateUnlockedCharacterList();
+                    }
+                    else
+                    {
+                        entry = questline_state.current_dialogue_entry;
+                        UpdateDisplay();
+                    }
 
-            };
+                };
+
+            }
         }
 
     }
