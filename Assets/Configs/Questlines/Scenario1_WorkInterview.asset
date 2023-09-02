@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario1_WorkInterview
+  m_EditorClassIdentifier: 
+  entries:
+  - dialogue_line: "Enchant\xE9e Emily, Thierry m\u2019a beaucoup parl\xE9 de toi.
+      Nous sommes justement en train de chercher quelqu\u2019un comme toi pour rejoindre
+      notre \xE9quipe de communication. Ton dossier est impressionnant, et ton profil
+      international c\u2019est exactement ce qui nous manque. "
+    unlocks: []
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers:
+    - answer: "Je serai honor\xE9e de travailler pour Baguette Incorporated, je suis
+        votre activit\xE9 depuis le tout d\xE9but. Le poste que vous recherchez m\u2019int\xE9resse
+        vraiment et je pense que nous allons bien nous entendre."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Parfait, tu serais pr\xEAte \xE0 commencer quand?"
+    unlocks:
+    - {fileID: 11400000}
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers:
+    - answer: "Je suis dispo d\xE8s demain !"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+  - dialogue_line: "Parfait, alors rdv demain \xE0 9h."
+    unlocks:
+    - {fileID: 11400000, guid: 10c85e93c04954ed1a06af40d30c5756, type: 2}
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers:
+    - answer: "Merci \xE0 demain !"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
