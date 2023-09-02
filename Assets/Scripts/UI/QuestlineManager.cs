@@ -173,7 +173,8 @@ public class QuestlineManager : MonoBehaviour
                 return questline_states[i];
             }
         }
-        return new QuestlineState { questline = character.default_dialogue, step_stack = new List<StepStackElement> { new StepStackElement { } } };
+        QuestlineConfig default_questline_config = new QuestlineConfig { entries = character.default_dialogue, play_mode = QuestlinePlaymode.PlayOnce };
+        return new QuestlineState { questline = default_questline_config, step_stack = new List<StepStackElement> { new StepStackElement { } } };
     }
 
     internal void UnlockQuestlines(QuestlineConfig[] unlocks)
