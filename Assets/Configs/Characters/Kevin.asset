@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14fea8eb4196faa4d886fbff85170c31, type: 3}
-  m_Name: Money Variable
+  m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
+  m_Name: Kevin
   m_EditorClassIdentifier: 
-  display_name: Argent
-  min: 0
-  max: 0
+  name: Kevin
+  sprite: {fileID: 0}
+  tooltip: 
+  default_dialogue: {fileID: 0}

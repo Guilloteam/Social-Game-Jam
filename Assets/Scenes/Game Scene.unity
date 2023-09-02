@@ -534,7 +534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questlines: []
   initial_questlines:
-  - {fileID: 11400000, guid: a279cfa9a5c55f64f8fc4b72c24de529, type: 2}
+  - {fileID: 11400000, guid: 76340c1dac49b4e2c85c2fe9bc7c64db, type: 2}
   questline_states: []
   unlocked_characters: []
 --- !u!224 &1132541446 stripped
