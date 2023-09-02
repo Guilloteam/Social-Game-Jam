@@ -15,7 +15,7 @@ MonoBehaviour:
   entries:
   - dialogue_line: Oui bonjour Emily, c'est Monsieur Gervais
     unlocks: []
-    character: {fileID: 11400000, guid: 068ad71589628421caf606cfd6a23241, type: 2}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
     - answer: 'Bonjour Monsieur Gervais '
       conditions: []
@@ -26,29 +26,19 @@ MonoBehaviour:
   - dialogue_line: "Je vous appelle pour vous informer que votre dossier a bien \xE9t\xE9
       accept\xE9"
     unlocks: []
-    character: {fileID: 11400000, guid: 068ad71589628421caf606cfd6a23241, type: 2}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: 
+    - answer: ...
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: 
+  - dialogue_line: Merci Monsieur Gervais !
     unlocks: []
-    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: Merci Monsieur Gervais !
-      conditions: []
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
-  - dialogue_line: "Ton dossier a \xE9t\xE9 accept\xE9 Emily !"
-    unlocks: []
-    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
-    answers:
-    - answer: Trop cool !
+    - answer: ...
       conditions: []
       effects: []
       dialogue_entries: []

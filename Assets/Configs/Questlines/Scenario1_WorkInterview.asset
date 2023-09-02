@@ -49,13 +49,3 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: 
-    unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
-    answers:
-    - answer: "Je suis dispo d\xE8s demain si besoin."
-      conditions: []
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
