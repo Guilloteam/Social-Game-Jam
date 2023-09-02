@@ -17,31 +17,35 @@ MonoBehaviour:
     unlocks: []
     character: {fileID: 11400000, guid: b2702d3fc283c784789ebacda4aadbde, type: 2}
     answers:
-      options:
-      - answer: Bonjour !
-        conditions: []
-        effects: []
-        dialogue_entries: []
-        unlocks: []
+    - answer: Bonjour Bob !
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
   - dialogue_line: T'as besoin de quelque chose ?
     unlocks: []
     character: {fileID: 11400000, guid: b2702d3fc283c784789ebacda4aadbde, type: 2}
     answers:
-      options:
-      - answer: Non !
-        conditions: []
-        effects: []
-        dialogue_entries: []
-        unlocks: []
-      - answer: Du POGNON !
-        conditions: []
-        effects: []
-        dialogue_entries:
-        - dialogue_line: "Je n'ai pas d'argent ! Mais va voir Jean-Michel, il est
-            p\xE9t\xE9 de thunes."
-          unlocks:
-          - {fileID: 11400000, guid: 7ba3c3279d24cae4b9dc9e0c359c1f37, type: 2}
-          character: {fileID: 11400000, guid: b2702d3fc283c784789ebacda4aadbde, type: 2}
-          answers:
-            options: []
-        unlocks: []
+    - answer: non
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    - answer: de la THUNE !
+      conditions: []
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "J'ai pas d'argent, va plut\xF4t voir Jean-Michel"
+        unlocks:
+        - {fileID: 11400000, guid: 7ba3c3279d24cae4b9dc9e0c359c1f37, type: 2}
+        character: {fileID: 11400000, guid: b2702d3fc283c784789ebacda4aadbde, type: 2}
+        answers:
+        - answer: ok
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+      unlocks: []
+    checkpoint: 1

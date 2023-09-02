@@ -17,17 +17,21 @@ MonoBehaviour:
     unlocks: []
     character: {fileID: 11400000, guid: 312128406ac6a004c8857ce94e6e5845, type: 2}
     answers:
-      options:
-      - answer: ok. T'as de la THUNE ?
-        conditions: []
-        effects:
-        - variable: {fileID: 11400000, guid: a30d70f2f66f5f94d94964bd7e5ed3b3, type: 2}
-          to_add: 10
-        dialogue_entries:
-        - dialogue_line: Oui, tiens.
-          unlocks:
-          - {fileID: 11400000}
-          character: {fileID: 11400000, guid: 312128406ac6a004c8857ce94e6e5845, type: 2}
-          answers:
-            options: []
+    - answer: Ok. T'as de la thune ?
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: a30d70f2f66f5f94d94964bd7e5ed3b3, type: 2}
+        to_add: 10
+      dialogue_entries:
+      - dialogue_line: Oui ! Tiens !
         unlocks: []
+        character: {fileID: 11400000, guid: 312128406ac6a004c8857ce94e6e5845, type: 2}
+        answers:
+        - answer: Cool
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+      unlocks: []
+    checkpoint: 0
