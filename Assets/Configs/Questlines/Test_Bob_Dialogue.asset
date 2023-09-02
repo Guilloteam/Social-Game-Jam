@@ -33,7 +33,13 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     - answer: de la THUNE !
-      conditions: []
+      conditions:
+      - condition_type: 2
+        condition_operator: 1
+        variable: {fileID: 0}
+        condition_value: 0
+        character_value: {fileID: 11400000, guid: b892ecc977bdf214588d857ec6cbdddc, type: 2}
+        expected_unlock_state: 1
       effects: []
       dialogue_entries:
       - dialogue_line: "J'ai pas d'argent, va plut\xF4t voir Jean-Michel"
@@ -49,3 +55,14 @@ MonoBehaviour:
         checkpoint: 0
       unlocks: []
     checkpoint: 1
+  - dialogue_line: "Tu devrais aller voir Hubert, il a un appartement \xE0 louer"
+    unlocks: []
+    character: {fileID: 11400000, guid: b2702d3fc283c784789ebacda4aadbde, type: 2}
+    answers:
+    - answer: Top
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks:
+      - {fileID: 11400000, guid: 89c97c055c3c8db449d53afcff87d910, type: 2}
+    checkpoint: 0

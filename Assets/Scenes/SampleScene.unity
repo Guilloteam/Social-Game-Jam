@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 953854200}
   - component: {fileID: 953854202}
   - component: {fileID: 953854201}
+  - component: {fileID: 953854203}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -282,10 +283,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1072919564}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -225, y: -32}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25.5}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953854201
 MonoBehaviour:
@@ -384,6 +385,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953854199}
   m_CullTransparentMesh: 1
+--- !u!114 &953854203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953854199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1218df5646195489e3acaa3354326b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 953854201}
+  prefix: 'Pognon : '
+  variable: {fileID: 11400000, guid: a30d70f2f66f5f94d94964bd7e5ed3b3, type: 2}
+  default_value: 0
 --- !u!1 &1072919560
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,14 +618,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1072919564}
     m_Modifications:
-    - target: {fileID: 811673727410385624, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 94
-      objectReference: {fileID: 0}
-    - target: {fileID: 811673727410385624, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 52
-      objectReference: {fileID: 0}
     - target: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
