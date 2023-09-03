@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario1_Default_Lauranne_Dialogue 1
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "Salut Emily, on se voit \xE0 l'afterwork ce soir ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Il y a Happy Hour toute la soir\xE9e sur les cocktails"
+    unlocks: []
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers:
+    - answer: "Non, je suis un peu crev\xE9 ce soir. Une prochaine"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    - answer: "Ouais, je ram\xE8ne mon copain !"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    - answer: "D\xE9sol\xE9, j'ai trop de travail aujourd'hui..."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

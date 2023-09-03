@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Kevin
   dialogue_portrait: {fileID: 21300000, guid: afdf5ff0c30d26349aac94f4d376db44, type: 3}
   minimap_icon: {fileID: 21300000, guid: ad3910059e5a41d4dbb590864c24656c, type: 3}
-  tooltip: 
-  default_dialogue_config: {fileID: 11400000, guid: e22fc1d39805c4f42bbe57d703efdc4b, type: 2}
+  tooltip: 'Jeune dynamique en coloc '
+  default_dialogue_config: {fileID: 0}
