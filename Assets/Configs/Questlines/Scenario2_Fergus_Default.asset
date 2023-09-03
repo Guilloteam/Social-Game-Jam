@@ -128,7 +128,9 @@ MonoBehaviour:
             answers:
             - answer: Et...
               conditions: []
-              effects: []
+              effects:
+              - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+                to_add: 0
               dialogue_entries:
               - dialogue_line: "Je comprends que ta situation est gal\xE8re mais
                   si tu pouvais trouver un logement rapidement, ce serait vraiment

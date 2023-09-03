@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_MonsieurGervais Default
+  m_EditorClassIdentifier: 
+  play_mode: 3
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "...\nAlors voici le salon... Les chambres... Et l\xE0 la salle
+      de bains... "
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Comme on a d\xFB vous le dire, nous avons une place, si vous
+      avez votre dossier sous la main on peut regarder \xE7a tout de suite."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers:
+    - answer: "Oui, j'ai bien fait de le pr\xE9parer avant de venir ! Le voici !"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: 'Parfait ! '
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: '...
+
+      ...
+
+      ...'
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "\xC9coutez, pour moi tout est ok, votre situation m\u2019a l\u2019air
+      stable. Et je fais confiance \xE0 Kevin, c\u2019est un tr\xE8s bon locataire\u2026
+      m\xEAme s\u2019il sent assez fort le fromage\u2026il a toujours ramen\xE9 des
+      gens s\xE9rieux dans cet appartement. Vous \xEAtes disponible lundi prochain
+      pour que je vous remette les cl\xE9s ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers:
+    - answer: ...
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 1
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
