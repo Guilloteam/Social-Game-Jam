@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14fea8eb4196faa4d886fbff85170c31, type: 3}
-  m_Name: Papers Variable
+  m_Name: House_Search
   m_EditorClassIdentifier: 
-  display_name: Papiers
+  display_name: Recherche d'appart
   min: 0
   max: 2
