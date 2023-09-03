@@ -25,6 +25,28 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
+    - answer: "Je suis pas d'humeur, la propri\xE9taire de l'appartement a refus\xE9
+        de me le louer."
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: e619d35d6698352438b2759354825c9f, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: Ah... Il va falloir trouver une autre solution... Demande
+          autour de toi, il y a bien des gens qui connaissent des collocations dans
+          le quartier !
+        unlocks: []
+        character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
