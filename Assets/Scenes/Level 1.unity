@@ -1981,6 +1981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c17059ac3b3ed264fa6f9f6e9970f8e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cv_config: {fileID: 11400000, guid: 43ad7ab4c84836245b63adab043d022f, type: 2}
   outro_dialogue_display_prefab: {fileID: 1887830899184258227, guid: 565e4d20930d27441a93fccc44ded445, type: 3}
   questlines: []
   initial_questlines:
@@ -3796,16 +3797,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 710895234}
     - targetCorrespondingSourceObject: {fileID: 1540947872231566903, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: 1
+      insertIndex: -1
       addedObject: {fileID: 1582821330}
     - targetCorrespondingSourceObject: {fileID: 1540947872231566903, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: 2
+      insertIndex: -1
       addedObject: {fileID: 1773487246}
     - targetCorrespondingSourceObject: {fileID: 1540947872231566903, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: 3
+      insertIndex: -1
       addedObject: {fileID: 2119159574}
     - targetCorrespondingSourceObject: {fileID: 1540947872231566903, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: 4
+      insertIndex: -1
       addedObject: {fileID: 541971364}
     - targetCorrespondingSourceObject: {fileID: 2131876698670843979, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
