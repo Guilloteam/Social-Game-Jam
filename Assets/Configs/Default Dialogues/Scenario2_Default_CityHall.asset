@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Scenario2_Default_CityHall
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: "Des papiers ? D\xE9sol\xE9, ici on ne fait que des papiers fran\xE7ais.
       Je vois que vous n\u2019avez pas la nationalit\xE9 fran\xE7aise."
     unlocks: []
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    character: {fileID: 11400000, guid: c9120d233f53b4fc2a7fcd2fb30bf5bf, type: 2}
     answers:
     - answer: ...
       conditions: []
@@ -31,7 +33,9 @@ MonoBehaviour:
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
+        on_phone: 0
       unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0

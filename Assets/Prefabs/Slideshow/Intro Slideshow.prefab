@@ -88,9 +88,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4105832774288904270, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s quelques ann\xE9es de relation \xE0 distance, tu d\xE9cides
+        de t\u2019installer en France pour rejoindre <b>Thierry</b>, ton petit copain
+        rencontr\xE9 pendant ton ann\xE9e Erasmus."
+      objectReference: {fileID: 0}
     - target: {fileID: 4144450198161461838, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_Name
-      value: Intro Slideshow Variant
+      value: Intro Slideshow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
