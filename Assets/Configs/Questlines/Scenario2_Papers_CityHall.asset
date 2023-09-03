@@ -10,12 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
-  m_Name: Scenario2_CityHall
+  m_Name: Scenario2_Papers_CityHall
   m_EditorClassIdentifier: 
   play_mode: 0
   entries:
-  - dialogue_line: 
+  - dialogue_line: "...Des papiers ? D\xE9sol\xE9, ici on ne fait que des papiers
+      fran\xE7ais. Je vois que vous n\u2019avez pas la nationalit\xE9 fran\xE7aise."
     unlocks: []
     character: {fileID: 11400000, guid: c9120d233f53b4fc2a7fcd2fb30bf5bf, type: 2}
-    answers: []
+    answers:
+    - answer: ...
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 

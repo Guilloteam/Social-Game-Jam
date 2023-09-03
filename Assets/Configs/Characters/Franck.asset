@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
-  m_Name: Employeur Black
+  m_Name: Franck
   m_EditorClassIdentifier: 
   name: Monsieur Franck
   dialogue_portrait: {fileID: 21300000, guid: 5b6e2e8f0c1870947bb9e3c73d0621e8, type: 3}
