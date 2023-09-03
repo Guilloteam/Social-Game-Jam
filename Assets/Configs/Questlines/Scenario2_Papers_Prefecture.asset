@@ -24,8 +24,14 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
-    - answer: Je viens pour les papiers
-      conditions: []
+    - answer: "Je viens pour demander une r\xE9gularisation"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
       effects: []
       dialogue_entries:
       - dialogue_line: "...Vous \xEAtes au bon endroit !"
@@ -60,21 +66,24 @@ MonoBehaviour:
                 checkpoint: 0
                 translated: 0
                 translated_dialogue_line: 
+                on_phone: 0
               unlocks: []
             checkpoint: 0
             translated: 0
             translated_dialogue_line: 
+            on_phone: 0
           unlocks: []
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
+        on_phone: 0
       unlocks: []
-    - answer: "J'ai les papiers que vous m'avez demand\xE9"
+    - answer: "Bonjour, j'ai les papiers que vous m'avez demand\xE9s"
       conditions:
       - condition_type: 1
         condition_operator: 1
         variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
-        condition_value: 2
+        condition_value: 1
         character_value: {fileID: 0}
         expected_unlock_state: 0
       effects: []
@@ -108,15 +117,71 @@ MonoBehaviour:
                 checkpoint: 0
                 translated: 0
                 translated_dialogue_line: 
+                on_phone: 0
               unlocks: []
             checkpoint: 0
             translated: 0
             translated_dialogue_line: 
+            on_phone: 0
           unlocks: []
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+    - answer: "Bonjour, j'ai les derniers papiers que vous m'avez demand\xE9s"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        condition_value: 3
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ah, j\u2019ai \xE0 peine regard\xE9 votre dossier, je vois
+          d\xE9j\xE0 qu\u2019il manque un document de votre employeur attestant de
+          votre activit\xE9 !"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: 
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: ' Il faut que votre employeur reconnaisse que vous travaillez
+              pour lui !'
+            unlocks: []
+            character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+            answers:
+            - answer: "Mais je ne comprends pas, c\u2019est parce que vous ne me
+                donnez pas de titre de s\xE9jour que je ne peux pas travailler"
+              conditions: []
+              effects:
+              - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+                to_add: 2
+              dialogue_entries:
+              - dialogue_line: "Je ne peux pas vous dire mieux, allez demander \xE0
+                  votre employeur de bien vous reconna\xEEtre."
+                unlocks: []
+                character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+                answers: []
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+                on_phone: 0
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+            on_phone: 0
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
       unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0

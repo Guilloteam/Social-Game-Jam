@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
   m_Name: Monsieur Gervais
   m_EditorClassIdentifier: 
-  name: M Gervais
+  name: M. Gervais
   dialogue_portrait: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
   minimap_icon: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
   tooltip: "Propri\xE9taire de Kevin et Lucia"
