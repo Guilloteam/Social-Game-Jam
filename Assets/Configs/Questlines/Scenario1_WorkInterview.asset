@@ -31,6 +31,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: "Parfait, tu serais pr\xEAte \xE0 commencer quand?"
     unlocks:
     - {fileID: 11400000}
@@ -44,6 +45,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: "Parfait, alors rdv demain \xE0 9h. Va voir Kevin, c'est lui qui
       s'occupera de ton <i>onboarding</i>"
     unlocks:
@@ -52,9 +54,12 @@ MonoBehaviour:
     answers:
     - answer: "Merci \xE0 demain !"
       conditions: []
-      effects: []
+      effects:
+      - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        to_add: 1
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0

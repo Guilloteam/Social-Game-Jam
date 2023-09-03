@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Fergus
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  entries:
+  - dialogue_line: Salut John !
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers:
+    - answer: "Merci cousin de m\u2019accueillir chez toi, tu me sauves. "
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Pas de quoi, c\u2019est \xE7a la famille. J\u2019esp\xE8re
+          que ta m\xE8re va bien, \xE7a doit \xEAtre dur pour elle ton d\xE9part\u2026"
+        unlocks: []
+        character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+        answers:
+        - answer: "Oui, c\u2019est dur, mais elle sait que je le fais pour eux. Il
+            y aura plus d\u2019opportunit\xE9s ici pour moi."
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: "Tu sais un peu comment t\u2019y prendre ?"
+            unlocks: []
+            character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+            answers:
+            - answer: "Je crois qu\u2019il faut que je commence par r\xE9gler mon
+                probl\xE8me de papiers."
+              conditions: []
+              effects: []
+              dialogue_entries:
+              - dialogue_line: "Tu sais o\xF9 aller ?"
+                unlocks: []
+                character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+                answers:
+                - answer: "On m\u2019a parl\xE9 de diff\xE9rents lieux, je vais aller
+                    toquer un peu partout\u2026 "
+                  conditions: []
+                  effects: []
+                  dialogue_entries: []
+                  unlocks:
+                  - {fileID: 11400000, guid: 623e8596af4274907bbc1bf9dd20380b, type: 2}
+                  - {fileID: 11400000, guid: 46dd84050860442b9ad63c912b90e82f, type: 2}
+                  - {fileID: 11400000, guid: daccb603625b94427910da0ae9bfab40, type: 2}
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    - answer: "Salut Fergus, je reviens de la pr\xE9fecture. Visiblement, il faut
+        que je trouve un logement et un travail pour faire une demande de r\xE9gularisation\u2026 "
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ah ouais gal\xE8re..."
+        unlocks: []
+        character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+        answers:
+        - answer: "Je crois que tu pourrais m\u2019aider pour le logement, en me
+            faisant une attestation d\u2019h\xE9bergement, tu serais d\u2019accord
+            ? "
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: "Bien s\xFBr cousin, je peux faire \xE7a. Juste une chose,
+              je ne sais pas si je pourrai t\u2019h\xE9berger longtemps, si mon proprio
+              s\u2019en rend compte, je risque d\u2019avoir des ennuis."
+            unlocks: []
+            character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+            answers:
+            - answer: "Ok, j\u2019esp\xE8re pouvoir r\xE9gler \xE7a rapidement. Pour
+                le boulot, tu connais des plans ?"
+              conditions: []
+              effects: []
+              dialogue_entries:
+              - dialogue_line: "Mmm\u2026 attends, je jette un oeil \xE0 trouverunnjobquipaiebien.fr."
+                unlocks: []
+                character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+                answers:
+                - answer: Trop cool merci
+                  conditions: []
+                  effects: []
+                  dialogue_entries:
+                  - dialogue_line: "Tiens, je t\u2019envoie une offre de Baguette
+                      Inc. C\u2019est une super bo\xEEte fran\xE7aise, le job est
+                      super bien pay\xE9 en plus. Et puis une autre, de BeStrong.
+                      L\u2019offre est vague, mais bon, \xE7\u2019a pas l\u2019air
+                      tr\xE8s exigeant, \xE7a peut d\xE9panner. "
+                    unlocks: []
+                    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+                    answers:
+                    - answer: Je vais candidater aux 2, merci cousin !
+                      conditions: []
+                      effects: []
+                      dialogue_entries: []
+                      unlocks:
+                      - {fileID: 11400000, guid: 351494a2262c447d9a6f3ee55de7284e, type: 2}
+                      - {fileID: 11400000, guid: db336e12870c44d589c3899e42594214, type: 2}
+                    checkpoint: 0
+                    translated: 0
+                    translated_dialogue_line: 
+                  unlocks: []
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 

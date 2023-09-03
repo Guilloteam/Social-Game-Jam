@@ -51,6 +51,8 @@ public class DialogueDisplay : MonoBehaviour
         displayed_answers.Clear();
         List<BranchResultConfig> available_answers = new List<BranchResultConfig>();
 
+        dialogue_line_anim.show_phone = entry.on_phone;
+        single_answer_anim.show_phone = entry.on_phone;
         for (int i = 0; i < entry.answers.Length; i++)
         {
             if (entry.answers[i].is_available)

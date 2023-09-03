@@ -115,6 +115,7 @@ public class QuestlineState
 public class QuestlineManager : MonoBehaviour
 {
     public static QuestlineManager instance;
+    public CvConfig cv_config;
     public DialogueDisplay outro_dialogue_display_prefab;
     public QuestlineConfig[] questlines;
     public QuestlineConfig[] initial_questlines;
