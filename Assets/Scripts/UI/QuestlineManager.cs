@@ -174,7 +174,7 @@ public class QuestlineManager : MonoBehaviour
 
     public void ApplyScenarioEffect(ScenarioStepEffect effect)
     {
-        variables[effect.variable] = GetVariable(effect.variable) + effect.to_add;
+        variables[effect.variable] = effect.to_add;
     }
 
     public QuestlineState PickQuestline(CharacterConfig character)

@@ -39,7 +39,7 @@ MonoBehaviour:
       conditions:
       - condition_type: 1
         condition_operator: 1
-        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
         condition_value: 0
         character_value: {fileID: 0}
         expected_unlock_state: 0
@@ -52,38 +52,33 @@ MonoBehaviour:
         - answer: Ouf, merci !
           conditions: []
           effects: []
-          dialogue_entries:
-          - dialogue_line: " Pour constituer votre dossier, il faut au moins que
-              vous puissiez justifier d\u2019un domicile et d\u2019un travail. Avez-vous
-              les pi\xE8ces justificatives n\xE9cessaires ?"
-            unlocks: []
-            character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
-            answers:
-            - answer: Non, je n'ai rien...
-              conditions: []
-              effects: []
-              dialogue_entries:
-              - dialogue_line: "Revenez quand vous aurez les papiers n\xE9cessaires"
-                unlocks: []
-                character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
-                answers:
-                - answer: "Tr\xE8s bien merci"
-                  conditions: []
-                  effects:
-                  - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
-                    to_add: 1
-                  dialogue_entries: []
-                  unlocks: []
-                checkpoint: 0
-                translated: 0
-                translated_dialogue_line: 
-                on_phone: 0
-              unlocks: []
-            checkpoint: 0
-            translated: 0
-            translated_dialogue_line: 
-            on_phone: 0
+          dialogue_entries: []
           unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: " Pour constituer votre dossier, il faut au moins que vous
+          puissiez justifier d\u2019un domicile et d\u2019un travail. Avez-vous les
+          pi\xE8ces justificatives n\xE9cessaires ?"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Non, je n'ai rien...
+          conditions: []
+          effects:
+          - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+            to_add: 1
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Revenez quand vous aurez les papiers n\xE9cessaires."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
@@ -137,7 +132,7 @@ MonoBehaviour:
           conditions: []
           effects:
           - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
-            to_add: 1
+            to_add: 2
           dialogue_entries: []
           unlocks: []
         checkpoint: 0

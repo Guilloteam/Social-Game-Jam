@@ -51,6 +51,7 @@ public class DialogueDisplay : MonoBehaviour
         }
         displayed_answers.Clear();
         List<BranchResultConfig> available_answers = new List<BranchResultConfig>();
+        List<int> available_answer_index = new List<int>();
 
         dialogue_line_anim.show_phone = entry.on_phone;
         single_answer_anim.show_phone = entry.on_phone;
@@ -59,6 +60,7 @@ public class DialogueDisplay : MonoBehaviour
             if (entry.answers[i].is_available)
             {
                 available_answers.Add(entry.answers[i]);
+                available_answer_index.Add(i);
             }
         }
         dialogue_line_anim.Hide();
@@ -84,11 +86,12 @@ public class DialogueDisplay : MonoBehaviour
         else if (available_answers.Count == 1)
         {
             next_button.onClick.RemoveAllListeners();
+            int answer_index = available_answer_index[0];
             next_button.onClick.AddListener(() =>
             {
                 QuestlineState questline_state = QuestlineManager.instance.PickQuestline(entry.character);
                 QuestlineConfig questline = questline_state.questline;
-                questline_state.SelectAnswer(0);
+                questline_state.SelectAnswer(answer_index);
                 AfterTransition(questline_state);
                 next_button.gameObject.SetActive(false);
             });
@@ -112,7 +115,7 @@ public class DialogueDisplay : MonoBehaviour
                 AnswerDisplay answer_display = Instantiate(answer_display_prefab, answer_panel);
                 displayed_answers.Add(answer_display);
                 answer_display.answer_config = available_answers[i];
-                int answer_index = i;
+                int answer_index = available_answer_index[i];
                 answer_display.answer_selected_delegate += () =>
                 {
                     QuestlineState questline_state = QuestlineManager.instance.PickQuestline(entry.character);
