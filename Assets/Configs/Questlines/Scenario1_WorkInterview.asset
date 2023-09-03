@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Scenario1_WorkInterview
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: "Enchant\xE9e Emily, Thierry m\u2019a beaucoup parl\xE9 de toi.
       Nous sommes justement en train de chercher quelqu\u2019un comme toi pour rejoindre
@@ -22,7 +24,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
     answers:
     - answer: "Je serai honor\xE9e de travailler pour Baguette Incorporated, je suis
-        votre activit\xE9 depuis le tout d\xE9but. Le poste que vous recherchez m\u2019int\xE9resse
+        votre activit\xE9 depuis le tout d\xE9but. Le poste que vous offrez m\u2019int\xE9resse
         vraiment et je pense que nous allons bien nous entendre."
       conditions: []
       effects: []
