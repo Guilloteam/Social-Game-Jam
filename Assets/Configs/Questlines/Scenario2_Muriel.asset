@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Muriel
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  entries:
+  - dialogue_line: "John, Vincent m\u2019a parl\xE9 de vous. \xC7a tombe bien, j\u2019ai
+      besoin d\u2019un commis en cuisine."
+    unlocks: []
+    character: {fileID: 11400000, guid: dd8fb8d5e21f84429a0c4eec55f9b1ee, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Il m\u2019a dit que vous vous \xE9tiez fait mal au dos. Rester
+      debout pendant plusieurs heures, vous pouvez ? "
+    unlocks: []
+    character: {fileID: 11400000, guid: dd8fb8d5e21f84429a0c4eec55f9b1ee, type: 2}
+    answers:
+    - answer: "Oui, normalement c\u2019est bon pour moi. Merci de me faire confiance.
+        Je sais que je n'ai pas d\u2019exp\xE9rience en cuisine, mais je vous promets,
+        j\u2019apprends vite et je suis tr\xE8s motiv\xE9."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Super, dans tous les cas on trouvera toujours des solutions pour
+      que \xE7a se passe au mieux. Vincent m\u2019a dit beaucoup de bien de vous."
+    unlocks: []
+    character: {fileID: 11400000, guid: dd8fb8d5e21f84429a0c4eec55f9b1ee, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Et vous savez, si vous avez besoin de quoique ce soit dans vos
+      d\xE9marches de r\xE9gularisation, vous pouvez me demander. "
+    unlocks: []
+    character: {fileID: 11400000, guid: dd8fb8d5e21f84429a0c4eec55f9b1ee, type: 2}
+    answers:
+    - answer: Merci beaucoup beaucoup
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Ne me remerciez pas d\xE9j\xE0. Il vous reste \xE0 faire vos
+      preuves ! A demain pour vos d\xE9buts."
+    unlocks: []
+    character: {fileID: 11400000, guid: dd8fb8d5e21f84429a0c4eec55f9b1ee, type: 2}
+    answers:
+    - answer: "\xC0 demain !"
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        to_add: 2
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

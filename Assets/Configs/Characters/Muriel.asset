@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
-  m_Name: Kevin
+  m_Name: Muriel
   m_EditorClassIdentifier: 
-  name: Kevin
-  dialogue_portrait: {fileID: 21300000, guid: afdf5ff0c30d26349aac94f4d376db44, type: 3}
-  minimap_icon: {fileID: 21300000, guid: ad3910059e5a41d4dbb590864c24656c, type: 3}
+  name: Muriel
+  dialogue_portrait: {fileID: 21300000, guid: 40e0ade8c80ded4488aa50a5e7c3b403, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 625d93dd69fdb4d4cb0b3e6f00834f00, type: 3}
   tooltip: 
-  default_dialogue_config: {fileID: 11400000, guid: e22fc1d39805c4f42bbe57d703efdc4b, type: 2}
+  default_dialogue_config: {fileID: 0}
