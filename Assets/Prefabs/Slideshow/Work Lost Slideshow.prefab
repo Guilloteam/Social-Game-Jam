@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Work Lost Slideshow
       objectReference: {fileID: 0}
+    - target: {fileID: 5527814105630674915, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5702428977870700774, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_IsActive
       value: 0
