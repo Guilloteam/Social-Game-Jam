@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: Scenario2_Papers_Prefecture
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
-  - dialogue_line: Bonjour, de quoi avez-vous besoin ?
+  - dialogue_line: Bonjour !
+    unlocks:
+    - {fileID: 0}
+    character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: De quoi avez-vous besoin ?
     unlocks:
     - {fileID: 0}
     character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
@@ -82,7 +93,13 @@ MonoBehaviour:
       conditions:
       - condition_type: 1
         condition_operator: 1
-        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
         condition_value: 1
         character_value: {fileID: 0}
         expected_unlock_state: 0
@@ -92,37 +109,36 @@ MonoBehaviour:
           attestation de domiciliation\u2026"
         unlocks: []
         character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Ah, elle est du d\xE9but d\u2019ann\xE9e ?! On ne vous a
+          pas dit qu\u2019il fallait une attestation de moins de trois mois ?"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
         answers:
-        - answer: 
+        - answer: Ah ?
           conditions: []
           effects: []
-          dialogue_entries:
-          - dialogue_line: "Ah, elle est du d\xE9but d\u2019ann\xE9e ?! On ne vous
-              a pas dit qu\u2019il fallait une attestation de moins de trois mois
-              ?"
-            unlocks: []
-            character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
-            answers:
-            - answer: 
-              conditions: []
-              effects:
-              - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
-                to_add: 2
-              dialogue_entries:
-              - dialogue_line: "Je suis d\xE9sol\xE9, mais je ne peux pas accepter
-                  votre dossier dans ces conditions, il va falloir la refaire. "
-                unlocks: []
-                character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
-                answers: []
-                checkpoint: 0
-                translated: 0
-                translated_dialogue_line: 
-                on_phone: 0
-              unlocks: []
-            checkpoint: 0
-            translated: 0
-            translated_dialogue_line: 
-            on_phone: 0
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Je suis d\xE9sol\xE9, mais je ne peux pas accepter votre
+          dossier dans ces conditions, il va falloir la refaire. "
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Ah... Je reviens tout de suite alors !
+          conditions: []
+          effects:
+          - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+            to_add: 1
+          dialogue_entries: []
           unlocks: []
         checkpoint: 0
         translated: 0
@@ -182,7 +198,7 @@ MonoBehaviour:
         on_phone: 0
       unlocks: []
     - answer: "Bonjour, j'ai enfin tous les papiers. \xC7a devrait \xEAtre enfin
-        bon \xE7"
+        bon"
       conditions:
       - condition_type: 1
         condition_operator: 1

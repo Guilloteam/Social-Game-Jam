@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Cousin Fergus
   dialogue_portrait: {fileID: 21300000, guid: d229799919823cd4baf5e325229c095d, type: 3}
   minimap_icon: {fileID: 21300000, guid: 2d434944185912e4cabf4068be5621d0, type: 3}
-  tooltip: "Cousin fran\xE7ais"
-  default_dialogue_config: {fileID: 0}
+  tooltip: 
+  default_dialogue_config: {fileID: 11400000, guid: 9db1017cafc555448970641d8780588e, type: 2}

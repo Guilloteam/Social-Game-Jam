@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
   m_Name: Prefecture
   m_EditorClassIdentifier: 
-  name: Mme Darmanin
+  name: Mme Fernandez
   dialogue_portrait: {fileID: 21300000, guid: 0f4c3e38965cfbf49884ebe4e1d74ab5, type: 3}
   minimap_icon: {fileID: 21300000, guid: 9b1a5202b30ecc347b99ccf9a186309e, type: 3}
-  tooltip: 'Heure d''attente : 3 jours'
-  default_dialogue_config: {fileID: 0}
+  tooltip: 
+  default_dialogue_config: {fileID: 11400000, guid: daccb603625b94427910da0ae9bfab40, type: 2}
