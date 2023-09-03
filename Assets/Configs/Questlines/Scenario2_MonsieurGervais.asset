@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Scenario2_MonsieurGervais
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: Oui hallo ?
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers:
     - answer: "Bonjour, je suis John, j\u2019ai visit\xE9 la semaine derni\xE8re
         votre appartement avec Kevin, et vous ai envoy\xE9 mon dossier. L\u2019avez-vous
@@ -32,7 +34,7 @@ MonoBehaviour:
   - dialogue_line: "Bonjour. John vous dites ? Ah oui, je me souviens. Je suis d\xE9sol\xE9,
       mais votre dossier est un peu mince."
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers: []
     checkpoint: 0
     translated: 0
@@ -41,7 +43,7 @@ MonoBehaviour:
   - dialogue_line: "Vos revenus sont assez faibles. Et puis, je n\u2019ai pas vu
       votre contrat de travail, vous pourriez peut-\xEAtre me l\u2019envoyer ?"
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers:
     - answer: "C\u2019est \xE0 dire que je viens d\u2019arriver en France, il me
         faut un peu de temps pour faire mon trou, mais \xE7a devrait vite s\u2019arranger.
@@ -58,7 +60,7 @@ MonoBehaviour:
   - dialogue_line: "Je suis d\xE9sol\xE9 jeune homme, je ne peux pas accepter, le
       risque est trop important pour moi\u2026"
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers:
     - answer: "J\u2019ai absolument besoin de ce logement, je vous en prie"
       conditions: []
@@ -73,7 +75,7 @@ MonoBehaviour:
     on_phone: 1
   - dialogue_line: "Non, d\xE9sol\xE9."
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers: []
     checkpoint: 0
     translated: 0

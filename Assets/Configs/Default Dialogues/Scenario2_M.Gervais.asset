@@ -18,7 +18,7 @@ MonoBehaviour:
   entries:
   - dialogue_line: Oui hallo ?
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers:
     - answer: Bonjour monsieur Gervais, c'est John.
       conditions: []
@@ -32,7 +32,7 @@ MonoBehaviour:
   - dialogue_line: "Bonjour John, d\xE9sol\xE9 je ne peux plus rien faire pour vous.
       Au revoir "
     unlocks: []
-    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    character: {fileID: 11400000, guid: 4dc1a87f0d3e09a49a508d8c1c07fd4b, type: 2}
     answers: []
     checkpoint: 0
     translated: 0
