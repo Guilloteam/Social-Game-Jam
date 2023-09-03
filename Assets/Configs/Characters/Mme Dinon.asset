@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66057ca06f4a7fe47a36812374de5351, type: 3}
-  m_Name: Proprio 1
+  m_Name: Mme Dinon
   m_EditorClassIdentifier: 
-  name: "Propri\xE9taire n\xB01"
+  name: Mme Dinon
   dialogue_portrait: {fileID: 21300000, guid: ba27f3cab99195e4ea98b77283013358, type: 3}
   minimap_icon: {fileID: 21300000, guid: 965129e35ea4f9e43800fb90a39e9022, type: 3}
-  tooltip: 
-  default_dialogue:
-  - dialogue_line: 
-    unlocks: []
-    character: {fileID: 0}
-    answers: []
-    checkpoint: 0
+  tooltip: "Propri\xE9taire d'un studio en centre-ville"
+  default_dialogue_config: {fileID: 0}

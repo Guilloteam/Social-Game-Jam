@@ -15,5 +15,7 @@ MonoBehaviour:
   name: Vincent
   dialogue_portrait: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
   minimap_icon: {fileID: 21300000, guid: 066ce4ebe8a9808469a2d0065feef921, type: 3}
-  tooltip: 
-  default_dialogue: []
+  tooltip: 'Militant pour le droit au logement
+
+    Ouvreur de squats'
+  default_dialogue_config: {fileID: 0}
