@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 *.db
 Assets/Graph/UI/Characters/Thumbs.db.meta
+Assets/Graph/Characters/Thumbs.db.meta
+Assets/Graph/UI/Thumbs.db.meta
