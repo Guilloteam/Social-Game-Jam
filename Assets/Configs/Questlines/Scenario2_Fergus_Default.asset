@@ -55,7 +55,9 @@ MonoBehaviour:
             - answer: "Ok, j\u2019esp\xE8re pouvoir r\xE9gler \xE7a rapidement. Pour
                 le boulot, tu connais des plans ?"
               conditions: []
-              effects: []
+              effects:
+              - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+                to_add: 1
               dialogue_entries:
               - dialogue_line: "Mmm\u2026 attends, je jette un oeil \xE0 trouverunnjobquipaiebien.fr."
                 unlocks: []
