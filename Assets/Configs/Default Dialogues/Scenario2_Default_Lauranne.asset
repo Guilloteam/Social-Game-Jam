@@ -19,7 +19,7 @@ MonoBehaviour:
   - dialogue_line: "Bonjour John, d\xE9sol\xE9 nous n'avons toujours pas de poste
       en lien avec vos comp\xE9tences. Bon courage !"
     unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    character: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     answers: []
     checkpoint: 1
     translated: 0
