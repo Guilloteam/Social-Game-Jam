@@ -16,7 +16,7 @@ MonoBehaviour:
   post_slideshow:
     prefab: {fileID: 0}
   entries:
-  - dialogue_line: Emily ! T'as fais bon voyage ?
+  - dialogue_line: Emily ! T'as fait bon voyage ?
     unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:

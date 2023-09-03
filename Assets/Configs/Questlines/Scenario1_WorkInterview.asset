@@ -31,9 +31,9 @@ MonoBehaviour:
     unlocks: []
     character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
     answers:
-    - answer: "Je serai honor\xE9e de travailler pour Baguette Incorporated, je suis
-        votre activit\xE9 depuis le tout d\xE9but. Le poste que vous offrez m\u2019int\xE9resse
-        vraiment et je pense que nous allons bien nous entendre."
+    - answer: "Je serais honor\xE9e de travailler pour Baguette Incorporated, je
+        suis votre activit\xE9 depuis le tout d\xE9but. Le poste que vous offrez
+        m\u2019int\xE9resse vraiment et je pense que nous allons bien nous entendre."
       conditions: []
       effects: []
       dialogue_entries: []
