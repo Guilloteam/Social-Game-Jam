@@ -24,7 +24,7 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
-    - answer: "Je viens pour demander une r\xE9gularisation"
+    - answer: "Bonjour c'est pour une demande de r\xE9gularisation"
       conditions:
       - condition_type: 1
         condition_operator: 1
@@ -175,6 +175,124 @@ MonoBehaviour:
             translated: 0
             translated_dialogue_line: 
             on_phone: 0
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+    - answer: "Bonjour, j'ai enfin tous les papiers. \xC7a devrait \xEAtre enfin
+        bon \xE7"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        condition_value: 3
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        condition_value: 2
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Il semblerait que vous ayez tous les documents n\xE9cessaires
+          pour prouver votre domiciliation et activit\xE9 en France. Malheureusement,
+          je ne pense pas que votre demande de titre de s\xE9jour \u201Csalari\xE9\u201D
+          sera accept\xE9e."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais comment c\u2019est possible ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Il semblerait que vous ayez tous les documents n\xE9cessaires
+          pour prouver votre domiciliation et activit\xE9 en France. Malheureusement,
+          je ne pense pas que votre demande de titre de s\xE9jour \u201Csalari\xE9\u201D
+          sera accept\xE9e."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais comment c\u2019est possible ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Pour que ce titre de s\xE9jour soit accord\xE9, il aurait
+          fallu que votre employeur fasse les d\xE9marches n\xE9cessaires avant votre
+          venue en France..."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "...qu\u2019il prouve que pour ce poste, il n\u2019a pas r\xE9ussi
+          \xE0 embaucher une personne d\xE9j\xE0 pr\xE9sente sur le march\xE9 du
+          travail fran\xE7ais, et en plus qu\u2019il paie la taxe OFII."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais quel employeur prendrait la peine de faire tout \xE7a ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Je sais, je suis d\xE9sol\xE9e, le syst\xE8me est tr\xE8s
+          contraignant. Dans votre cas, il y a une autre l\xE9gislation qui s\u2019applique."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Faisons la appliquer alors. Il me manque quelque chose ?
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Malheureusement, pour vous c\u2019est trop t\xF4t\u2026Il
+          faut trois ans de pr\xE9sence minimum sur le territoire fran\xE7ais..."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Trois an ?!
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: ...et 24 bulletins de salaire dont 8 sur les derniers 24 mois,
+          selon la circulaire Valls. Vous pouvez revenir dans 2 ans et demi si tout
+          va bien pour vous.
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Ah
+          conditions: []
+          effects: []
+          dialogue_entries: []
           unlocks: []
         checkpoint: 0
         translated: 0
