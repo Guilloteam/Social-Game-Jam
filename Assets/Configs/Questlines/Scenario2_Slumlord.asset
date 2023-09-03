@@ -14,25 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   play_mode: 0
   entries:
-  - dialogue_line: ...
+  - dialogue_line: Vous la prenez cette chambre ?
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 7aff18df9e76347cfadadd0eaa8b77eb, type: 2}
     answers:
-    - answer: Salut
-      conditions: []
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
-    unlocks: []
-    character: {fileID: 0}
-    answers:
-    - answer: J'ai entendu dire que tu louais une chambre ?
+    - answer: "Euh je ne comprends pas bien, le prix de cette chambre pour deux est
+        le m\xEAme que pour des studios seuls \xE0 Lyon, ce n\u2019est pas n\xE9gociable
+        ? Sans parler de l\u2019humidit\xE9 et des moisissures dans la salle de bain. "
       conditions:
       - condition_type: 0
-        condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
+        condition_operator: 0
+        variable: {fileID: 0}
         condition_value: 0
         character_value: {fileID: 0}
         expected_unlock_state: 0
@@ -40,19 +32,55 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "C\u2019est \xE0 prendre ou \xE0 laisser. Je ne vous demande rien,
+      vous payez votre loyer, et je vous laisserai tranquille."
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 7aff18df9e76347cfadadd0eaa8b77eb, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: 'Si vous trouvez mieux ailleurs, tant mieux pour vous. '
+    unlocks: []
+    character: {fileID: 11400000, guid: 7aff18df9e76347cfadadd0eaa8b77eb, type: 2}
     answers:
-    - answer: "Je reviens vers toi par rapport \xE0 la chambre dont tu m'avais parl\xE9"
+    - answer: "Je vais y r\xE9fl\xE9chir... C'est au dessus de mes moyens..."
       conditions:
-      - condition_type: 0
+      - condition_type: 1
         condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
-        condition_value: 1
+        variable: {fileID: 11400000, guid: 54a5a5505ad8949b18535690e5f8e224, type: 2}
+        condition_value: 2
         character_value: {fileID: 0}
         expected_unlock_state: 0
       effects: []
       dialogue_entries: []
       unlocks: []
+    - answer: Bon... Finalement, je le prends
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: e619d35d6698352438b2759354825c9f, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects:
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 1
+      dialogue_entries:
+      - dialogue_line: "Ah, vous avez fini de r\xEAver."
+        unlocks: []
+        character: {fileID: 11400000, guid: 7aff18df9e76347cfadadd0eaa8b77eb, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
