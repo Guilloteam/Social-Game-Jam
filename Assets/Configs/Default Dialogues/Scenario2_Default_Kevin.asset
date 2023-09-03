@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Default_Kevin
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "Salut John, j'ai appris que \xE7a l'avait pas fait avec le proprio."
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "La chambre n'est plus dispo, une coll\xE8gue l'a prise. "
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: Bonne installation en France, tu vas voir c'est la belle vie ici
+      !
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

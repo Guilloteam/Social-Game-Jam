@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Default_Franck
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "Vous \xEAtes sur le r\xE9pondeur de BeStrong."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: "Si vous avec un Mindset de winner et que vous \xEAtes disruptif"
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: Envoyez-moi votre CV et je vous rappelle ASAP
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 1
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
