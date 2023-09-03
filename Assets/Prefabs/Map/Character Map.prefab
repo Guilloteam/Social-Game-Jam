@@ -594,10 +594,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5426663006558237413}
-  - {fileID: 4317337881806681706}
   - {fileID: 8247294138107064243}
   - {fileID: 1540947872231566903}
   - {fileID: 2131876698670843979}
+  - {fileID: 4317337881806681706}
   - {fileID: 7743277617858078647}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2462,7 +2462,7 @@ PrefabInstance:
     - target: {fileID: 3014465499547226838, guid: ac85624bb2ae8d1488a46bd5f2211201, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
+      objectReference: {fileID: 21300000, guid: 735babad478d9cb43a21bc05e673df3c, type: 3}
     - target: {fileID: 3382619158712836573, guid: ac85624bb2ae8d1488a46bd5f2211201, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2607,7 +2607,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 240e53b80f4600443ba417a2a3275064, type: 3}
     - target: {fileID: 5263769479500850477, guid: ac85624bb2ae8d1488a46bd5f2211201, type: 3}
       propertyPath: m_text
-      value: "Propri\xE9taire n\xB01"
+      value: Mme Dinon
       objectReference: {fileID: 0}
     - target: {fileID: 5571677710925397267, guid: ac85624bb2ae8d1488a46bd5f2211201, type: 3}
       propertyPath: character

@@ -1279,7 +1279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43, y: -118}
+  m_AnchoredPosition: {x: 42.4, y: -129.3}
   m_SizeDelta: {x: 28.535, y: 28.535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2382578535775835074
@@ -5207,6 +5207,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7864270593058371926, guid: 022444e10777af84db32c5e99f63243e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 735babad478d9cb43a21bc05e673df3c, type: 3}
     - target: {fileID: 8141683586838267598, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 63
@@ -5240,9 +5244,6 @@ PrefabInstance:
       addedObject: {fileID: 5046759183633360825}
     - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1506287701232723622}
-    - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4706039018740342589}
     - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
@@ -5255,13 +5256,16 @@ PrefabInstance:
       addedObject: {fileID: 3524441668269528411}
     - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4158760062535050999}
-    - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 7003660977292021384}
     - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8167045720401365628}
+    - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4158760062535050999}
+    - targetCorrespondingSourceObject: {fileID: 1457441632383090404, guid: 022444e10777af84db32c5e99f63243e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1506287701232723622}
     - targetCorrespondingSourceObject: {fileID: 4317337881806681706, guid: 022444e10777af84db32c5e99f63243e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1346491838698722669}
