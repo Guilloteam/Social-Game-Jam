@@ -15,6 +15,5 @@ MonoBehaviour:
   name: Mairie
   dialogue_portrait: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
   minimap_icon: {fileID: 21300000, guid: 5474b670a294e9643974e36f467ec4bd, type: 3}
-  tooltip: "Ouvert de 10h \xE0 11h et de 15h \xE0 16h tous les lundis et les premiers
-    mercredi du mois (hors vacances scolaires)"
-  default_dialogue_config: {fileID: 11400000, guid: a64caa125404147c3b4759fb0b30e15f, type: 2}
+  tooltip: 
+  default_dialogue_config: {fileID: 11400000, guid: 623e8596af4274907bbc1bf9dd20380b, type: 2}

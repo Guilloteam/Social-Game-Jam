@@ -22,3 +22,4 @@ MonoBehaviour:
   origine_country: <b>Vallania</b>, pays n'ayant pas un accord de libre-circulation
     avec la France
   portrait: {fileID: 21300000, guid: 456ca3619c1df3b4a86a015b41d3f789, type: 3}
+  dialogue_sprite: {fileID: 21300000, guid: fb5cf25ce63d4df4e87ec8f3bfed46b4, type: 3}

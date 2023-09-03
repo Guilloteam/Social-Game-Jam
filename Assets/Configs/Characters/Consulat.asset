@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Consulat
   dialogue_portrait: {fileID: 21300000, guid: 9e354c45d006ba7499c33f4925225fc4, type: 3}
   minimap_icon: {fileID: 21300000, guid: 97ed8e26765c30949a0fab6a090a04c3, type: 3}
-  tooltip: "Ouvert de 2h \xE0 3h le troisi\xE8me jeudi du mois"
-  default_dialogue_config: {fileID: 11400000, guid: 5f9142a1098b544b5b0faee35f88ae63, type: 2}
+  tooltip: 
+  default_dialogue_config: {fileID: 11400000, guid: 46dd84050860442b9ad63c912b90e82f, type: 2}

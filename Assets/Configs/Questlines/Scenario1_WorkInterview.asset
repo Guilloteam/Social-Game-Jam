@@ -18,8 +18,16 @@ MonoBehaviour:
   entries:
   - dialogue_line: "Enchant\xE9e Emily, Thierry m\u2019a beaucoup parl\xE9 de toi.
       Nous sommes justement en train de chercher quelqu\u2019un comme toi pour rejoindre
-      notre \xE9quipe de communication. Ton dossier est impressionnant, et ton profil
-      international c\u2019est exactement ce qui nous manque. "
+      notre \xE9quipe de communication."
+    unlocks: []
+    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Ton dossier est impressionnant, et ton profil international c\u2019est
+      exactement ce qui nous manque. "
     unlocks: []
     character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
     answers:

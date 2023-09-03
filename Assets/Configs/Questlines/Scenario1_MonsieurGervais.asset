@@ -13,10 +13,20 @@ MonoBehaviour:
   m_Name: Scenario1_MonsieurGervais
   m_EditorClassIdentifier: 
   play_mode: 3
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: "...\nAlors voici le salon... Les chambres... Et l\xE0 la salle
-      de bains. Comme on a d\xFB vous le dire, nous avons une place, si vous avez
-      votre dossier sous la main on peut regarder \xE7a tout de suite."
+      de bains... "
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Comme on a d\xFB vous le dire, nous avons une place, si vous
+      avez votre dossier sous la main on peut regarder \xE7a tout de suite."
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
@@ -28,6 +38,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: 'Parfait ! '
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
@@ -35,6 +46,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: '...
 
       ...
@@ -46,6 +58,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: "\xC9coutez, pour moi tout est ok, votre situation m\u2019a l\u2019air
       stable. Et je fais confiance \xE0 Kevin, c\u2019est un tr\xE8s bon locataire\u2026
       m\xEAme s\u2019il sent assez fort le fromage\u2026il a toujours ramen\xE9 des
@@ -64,3 +77,4 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
