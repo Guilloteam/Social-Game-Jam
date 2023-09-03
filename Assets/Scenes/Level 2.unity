@@ -350,6 +350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1072919564}
     m_Modifications:
+    - target: {fileID: 82538293111589697, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 11400000, guid: ba73e385045ad4e6bbf3271a720da520, type: 2}
     - target: {fileID: 255319526562219249, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_text
       value: Ouvert les lundis
@@ -514,6 +518,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Propri\xE9taire de la colocation de Kevin"
       objectReference: {fileID: 0}
+    - target: {fileID: 5240845936123204248, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     - target: {fileID: 5553424888698434732, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_text
       value: Militant pour le droit au logement

@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: Scenario2_Kevin
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: "Alors, l\u2019appartement te pla\xEEt ? Tu connais le loyer et
       les conditions, si tout est ok pour toi, pour nous aussi, je te laisse te rapprocher
       du propri\xE9taire, et on se revoit bient\xF4t j\u2019esp\xE8re ? "
     unlocks: []
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    character: {fileID: 11400000, guid: ba73e385045ad4e6bbf3271a720da520, type: 2}
     answers:
     - answer: 'C''est l''appart parfait pour moi ! Le proprio est cool ?
 
@@ -40,7 +42,7 @@ MonoBehaviour:
   - dialogue_line: "Oui carr\xE9ment, normalement il n\u2019y aura pas de probl\xE8me,
       il m\u2019a accept\xE9 alors que j\u2019\xE9tais au ch\xF4mage ! "
     unlocks: []
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    character: {fileID: 11400000, guid: ba73e385045ad4e6bbf3271a720da520, type: 2}
     answers: []
     checkpoint: 0
     translated: 0
@@ -49,7 +51,7 @@ MonoBehaviour:
   - dialogue_line: Tu devrais l'appeler et voir directement avec lui
     unlocks:
     - {fileID: 11400000, guid: 380e240af2bd943fe9c5d92243f69a3a, type: 2}
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    character: {fileID: 11400000, guid: ba73e385045ad4e6bbf3271a720da520, type: 2}
     answers: []
     checkpoint: 0
     translated: 0

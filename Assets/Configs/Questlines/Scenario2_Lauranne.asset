@@ -18,7 +18,7 @@ MonoBehaviour:
   entries:
   - dialogue_line: "Oui bonjour, Lauranne de Baguette Inc au t\xE9l\xE9phone."
     unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    character: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     answers:
     - answer: "Bonjour, je m\u2019appelle John. Je vous appelle car je vous ai envoy\xE9
         ma candidature il y a quelques temps, mais je n\u2019ai toujours pas re\xE7u
@@ -34,7 +34,7 @@ MonoBehaviour:
   - dialogue_line: "On a bien re\xE7u votre dossier mais malheureusement nous ne
       pouvons pas y donner suite. "
     unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    character: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     answers:
     - answer: Ah...
       conditions: []
@@ -51,7 +51,7 @@ MonoBehaviour:
       nous ne consid\xE9rons pas que vos comp\xE9tences sont \xE0 la hauteur des
       attentes du poste auquel vous avez postul\xE9."
     unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    character: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     answers:
     - answer: "Je comprends\u2026 J\u2019ai toutefois une exp\xE9rience de plus de
         quatre ans sur un poste similaire en Vallania. Vous ne regretterez pas de
@@ -67,7 +67,7 @@ MonoBehaviour:
   - dialogue_line: "D\xE9sol\xE9e, \xE7a ne correspond pas \xE0 la politique de Baguette
       Inc. Bonne journ\xE9e."
     unlocks: []
-    character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
+    character: {fileID: 11400000, guid: 2dbc7ea048228455cbdbfa6420847607, type: 2}
     answers:
     - answer: "Bonne journ\xE9e..."
       conditions: []

@@ -16,4 +16,4 @@ MonoBehaviour:
   dialogue_portrait: {fileID: 21300000, guid: 580c5cfac1bb4fe4a9cb2035ca732558, type: 3}
   minimap_icon: {fileID: 21300000, guid: c81f331d3d454584ebc30c509714207f, type: 3}
   tooltip: Recruteuse de Baguette Inc
-  default_dialogue_config: {fileID: 0}
+  default_dialogue_config: {fileID: 11400000, guid: 8bb84f244199c4b71baca00108586edd, type: 2}
