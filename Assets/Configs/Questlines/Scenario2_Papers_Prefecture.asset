@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Papers_Prefecture
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  entries:
+  - dialogue_line: Bonjour, de quoi avez-vous besoin ?
+    unlocks:
+    - {fileID: 11400000, guid: a0b2d287492fd436faeb2ca0fc1fe37c, type: 2}
+    character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+    answers:
+    - answer: C'est tout bon merci
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    - answer: Je viens pour les papiers
+      conditions: []
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "...Vous \xEAtes au bon endroit !"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Ouf, merci !
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: " Pour constituer votre dossier, il faut au moins que
+              vous puissiez justifier d\u2019un domicile et d\u2019un travail. Avez-vous
+              les pi\xE8ces justificatives n\xE9cessaires ?"
+            unlocks: []
+            character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+            answers:
+            - answer: Non, je n'ai rien...
+              conditions: []
+              effects: []
+              dialogue_entries:
+              - dialogue_line: "Revenez quand vous aurez les papiers n\xE9cessaires"
+                unlocks: []
+                character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+                answers:
+                - answer: "Tr\xE8s bien merci"
+                  conditions: []
+                  effects:
+                  - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+                    to_add: 1
+                  dialogue_entries: []
+                  unlocks: []
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    - answer: "J'ai les papiers que vous m'avez demand\xE9"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        condition_value: 2
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Mmm, une demande de r\xE9gularisation. Faites voir votre
+          attestation de domiciliation\u2026"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: 
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: "Ah, elle est du d\xE9but d\u2019ann\xE9e ?! On ne vous
+              a pas dit qu\u2019il fallait une attestation de moins de trois mois
+              ?"
+            unlocks: []
+            character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+            answers:
+            - answer: 
+              conditions: []
+              effects:
+              - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+                to_add: 2
+              dialogue_entries:
+              - dialogue_line: "Je suis d\xE9sol\xE9, mais je ne peux pas accepter
+                  votre dossier dans ces conditions, il va falloir la refaire. "
+                unlocks: []
+                character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+                answers: []
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
