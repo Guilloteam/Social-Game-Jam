@@ -20,7 +20,16 @@ public class CharacterButton : MonoBehaviour
         canvas_group = GetComponent<CanvasGroup>();
         if(Application.IsPlaying(this))
         {
-            canvas_group.alpha = QuestlineManager.instance.unlocked_characters.Contains(character) ? 1 : 0;
+            if(QuestlineManager.instance.unlocked_characters.Contains(character))
+            {
+                canvas_group.alpha = 1;
+                canvas_group.interactable = true;
+            }
+            else
+            {
+                canvas_group.alpha = 0;
+                canvas_group.interactable = false;
+            }
             QuestlineManager.instance.character_unlock_delegate += (CharacterConfig character) =>
             {
                 if (character == this.character)
@@ -49,6 +58,7 @@ public class CharacterButton : MonoBehaviour
             yield return null;
         }
         canvas_group.alpha = 1;
+        canvas_group.interactable = true;
     }
 
     public void Update()
