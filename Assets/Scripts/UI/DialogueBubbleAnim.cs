@@ -15,11 +15,15 @@ public class DialogueBubbleAnim : MonoBehaviour
     public AnimationCurve visibility_curve = AnimationCurve.Linear(0, 1, 1, 1);
     public CanvasGroup canvas_group;
     private Color text_color;
+    public GameObject phone_icon;
+    public bool show_phone;
+
 
     private void Start()
     {
         text_color = text.color;
     }
+
     public void Show(string text)
     {
         if(anim_cursor > 0)
@@ -42,6 +46,10 @@ public class DialogueBubbleAnim : MonoBehaviour
 
     void Update()
     {
+        if(phone_icon != null)
+        {
+            phone_icon.SetActive(show_phone);
+        }
         float anim_duration = fold_duration;
         if (anim_direction > 0)
             anim_duration = unfold_duration;
