@@ -23,7 +23,7 @@ public class IntroScreen : MonoBehaviour
         }
         button.onClick.AddListener(() =>
         {
-            if(slide_index + 1 >= slides.Length)
+            if(slide_index + 2 >= slides.Length)
             {
                 hide = true;
                 transition_ratio = 0;
@@ -64,7 +64,7 @@ public class IntroScreen : MonoBehaviour
         {
             for(int i=0; i<slides.Length; i++)
             {
-                slides[i].alpha = Mathf.Clamp01(1 - Mathf.Abs(transition_ratio + slide_index - i));
+                slides[i].alpha = Mathf.Clamp01((1 - Mathf.Clamp01(Mathf.Abs(transition_ratio + slide_index - i))-0.5f)*2);
             }
         }
     }
