@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Franck_Default
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: Bonjour, je peux vous aider ?
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: C'est pour votre offre d'emploi
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ah, vous avez pris une d\xE9cision ?"
+        unlocks: []
+        character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+        answers:
+        - answer: "Je ne suis pas encore d\xE9cid\xE9, j'ai d'autres offres potentielles."
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        - answer: "J\u2019ai vraiment besoin de travailler... J'accepte."
+          conditions:
+          - condition_type: 1
+            condition_operator: 1
+            variable: {fileID: 11400000, guid: 48b72a76ee95ccd4a850ccc1e58bbf87, type: 2}
+            condition_value: 1
+            character_value: {fileID: 0}
+            expected_unlock_state: 0
+          effects:
+          - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+            to_add: 1
+          dialogue_entries:
+          - dialogue_line: "Bon... Vous commencez la semaine prochaine. Rendez-vous
+              ici \xE0 9h lundi."
+            unlocks: []
+            character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+            answers: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+            on_phone: 0
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

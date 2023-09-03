@@ -393,6 +393,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   canvas_group: {fileID: 0}
+  phone_icon: {fileID: 0}
+  show_phone: 0
 --- !u!1 &2211420780732652191
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +588,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   canvas_group: {fileID: 901218152721600226}
+  phone_icon: {fileID: 0}
+  show_phone: 0
 --- !u!225 &901218152721600226
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1336,6 +1340,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   dialogue_line_anim: {fileID: 5505039836803795949}
   translated_dialogue_line_anim: {fileID: 3517021972399852101}
   single_answer_anim: {fileID: 2545973406630632405}
@@ -1439,6 +1444,7 @@ GameObject:
   - component: {fileID: 6782269262862515894}
   - component: {fileID: 6178721051922544346}
   - component: {fileID: 6883563672425110584}
+  - component: {fileID: 7732102686868761703}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1564,6 +1570,28 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7732102686868761703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746360162437145718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6f4bd1181c70a438f4bed30b527cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: {fileID: 6883563672425110584}
+  age: {fileID: 0}
+  french_level: {fileID: 0}
+  diplome: {fileID: 0}
+  experience: {fileID: 0}
+  contact: {fileID: 0}
+  passion: {fileID: 0}
+  origine_country: {fileID: 0}
+  portrait: {fileID: 0}
+  dialogue_image: {fileID: 8698582870173056864}
 --- !u!1 &4883290121871880390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,6 +2392,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   canvas_group: {fileID: 0}
+  phone_icon: {fileID: 0}
+  show_phone: 0
 --- !u!1 &7166631788323782924
 GameObject:
   m_ObjectHideFlags: 0

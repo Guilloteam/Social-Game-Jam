@@ -17,4 +17,5 @@ public class CvConfig : ScriptableObject
     [TextAreaAttribute(3, 5)]
     public new string origine_country;
     public Sprite portrait;
+    public Sprite dialogue_sprite;
 }

@@ -64,9 +64,9 @@ public class QuestlineState
     public void NextStep()
     {
         DialogueEntry[] current_entry_sequence = questline.entries;
-        for(int i=1; i<step_stack.Count-1;i++)
+        for(int i=1; i<=step_stack.Count-1;i++)
         {
-            current_entry_sequence = current_entry_sequence[step_stack[i].sequence_cursor].answers[step_stack[i].answer_index].dialogue_entries;
+            current_entry_sequence = current_entry_sequence[step_stack[i-1].sequence_cursor].answers[step_stack[i].answer_index].dialogue_entries;
         }
         StepStackElement top_stack_value = step_stack[step_stack.Count - 1];
         if(current_entry_sequence.Length <= top_stack_value.sequence_cursor)

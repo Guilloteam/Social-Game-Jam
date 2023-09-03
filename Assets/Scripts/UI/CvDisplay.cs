@@ -15,6 +15,7 @@ public class CvDisplay : MonoBehaviour
     public TMPro.TextMeshProUGUI passion;
     public TMPro.TextMeshProUGUI origine_country;
     public Image portrait;
+    public Image dialogue_image;
 
     public void Start()
     {
@@ -37,6 +38,8 @@ public class CvDisplay : MonoBehaviour
             origine_country.text = cv_config.origine_country;
         if(portrait != null)
             portrait.sprite = cv_config.portrait;
+        if (dialogue_image != null)
+            dialogue_image.sprite = cv_config.dialogue_sprite;
     }
 
 }
