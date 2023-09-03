@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Monsieur Gervais
   m_EditorClassIdentifier: 
   name: M. Gervais
-  dialogue_portrait: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
-  minimap_icon: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
-  tooltip: "Propri\xE9taire de Kevin"
-  default_dialogue_config: {fileID: 0}
+  dialogue_portrait: {fileID: 21300000, guid: 14f6ea9bb0b7e0a40a76502810374c8f, type: 3}
+  minimap_icon: {fileID: 21300000, guid: 735babad478d9cb43a21bc05e673df3c, type: 3}
+  tooltip: "Propri\xE9taire de la colocation de Kevin"
+  default_dialogue_config: {fileID: 11400000, guid: dcdd66325e316426d83e72693db214cc, type: 2}

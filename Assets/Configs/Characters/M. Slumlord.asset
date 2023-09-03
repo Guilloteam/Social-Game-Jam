@@ -15,5 +15,5 @@ MonoBehaviour:
   name: M. Slumlord
   dialogue_portrait: {fileID: 21300000, guid: eb681951f1d8b5d448ca4f8080eb8eba, type: 3}
   minimap_icon: {fileID: 21300000, guid: 508d50c2cdff2764ea061c5a62ca846c, type: 3}
-  tooltip: 
-  default_dialogue_config: {fileID: 0}
+  tooltip: "Propri\xE9taire de tr\xE8s grandes colocations"
+  default_dialogue_config: {fileID: 11400000, guid: 8c6deaa07a801471aaff18652ed7116b, type: 2}

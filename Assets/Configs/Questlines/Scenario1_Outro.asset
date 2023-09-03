@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Scenario1_Outro
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
-  - dialogue_line: Ceci est une outro !
+  - dialogue_line: "\xC7a va Emily, bien install\xE9e ?"
     unlocks: []
-    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
     answers:
-    - answer: Wow elle est vraiment incroyable cette outro
+    - answer: "Oui, trop contente d\u2019avoir enfin mon chez moi. Merci encore Kevin
+        de m\u2019avoir fait confiance. "
       conditions: []
       effects: []
       dialogue_entries: []
@@ -26,10 +29,47 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
-  - dialogue_line: Grave !
+    on_phone: 0
+  - dialogue_line: "T\u2019inqui\xE8tes, moi aussi j\u2019ai connu l\u2019arriv\xE9e
+      en France. C\u2019est toujours gal\xE8re de se loger dans un nouveau pays."
     unlocks: []
-    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
-    answers: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers:
+    - answer: "D\u2019abord me reposer un peu. Trouver un travail et un appart, c\u2019\xE9tait
+        stressant ! Et puis j\u2019ai 1000 envies : prendre des cours de fran\xE7ais,
+        m\u2019inscrire au foot, d\xE9couvrir la France\u2026 "
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Et tu vas rentrer voir ta famille bient\xF4t ? "
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers:
+    - answer: Oui, aux prochaines vacances !
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Super. Tu vas voir, c\u2019est une aventure g\xE9niale de refaire
+      sa vie dans un nouveau pays, on peut \xEAtre qui on veut."
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers:
+    - answer: "H\xE2te !"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

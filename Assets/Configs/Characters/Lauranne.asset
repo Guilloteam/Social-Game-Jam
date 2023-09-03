@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Lauranne
   dialogue_portrait: {fileID: 21300000, guid: 580c5cfac1bb4fe4a9cb2035ca732558, type: 3}
   minimap_icon: {fileID: 21300000, guid: c81f331d3d454584ebc30c509714207f, type: 3}
-  tooltip: 
+  tooltip: Recruteuse de Baguette Inc
   default_dialogue_config: {fileID: 0}
