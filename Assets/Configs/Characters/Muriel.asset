@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Muriel
   dialogue_portrait: {fileID: 21300000, guid: 40e0ade8c80ded4488aa50a5e7c3b403, type: 3}
   minimap_icon: {fileID: 21300000, guid: 625d93dd69fdb4d4cb0b3e6f00834f00, type: 3}
-  tooltip: 
-  default_dialogue_config: {fileID: 0}
+  tooltip: Restauratrice bienveillante
+  default_dialogue_config: {fileID: 11400000, guid: 3c9f9be5b3b564d2e9908f30adeeb051, type: 2}
