@@ -1417,7 +1417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chapitre 1 : Emily'
+  m_text: 'Chapitre 1 : <b>Emily</b>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
   m_sharedMaterial: {fileID: 7250124770320246196, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
@@ -1644,10 +1644,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous \xEAtes Emily, une jeune femme venant d'un pays de l'union europ\xE9enne."
+  m_text: "Tu es <b>Emily</b>, une jeune femme venant d'un pays de l'union europ\xE9enne."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
-  m_sharedMaterial: {fileID: 7250124770320246196, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
+  m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2082,10 +2082,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Ton dipl\xF4me en poche, tu d\xE9cides de t'installer en France pour rejoindre
-    Thierry, ton petit copain, rencontr\xE9 pendant ton ann\xE9e Erasmus."
+    <b>Thierry</b>, ton petit copain, rencontr\xE9 pendant ton ann\xE9e Erasmus."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
-  m_sharedMaterial: {fileID: 7250124770320246196, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
+  m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2535,10 +2535,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A peine sortie de l'a\xE9roport, tu n'as rien d'autre sur toi que l'adresse
-    de l'appartement ou habite Thierry."
+    de l'appartement o\xF9 habite <b>Thierry</b>."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
-  m_sharedMaterial: {fileID: 7250124770320246196, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
+  m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
