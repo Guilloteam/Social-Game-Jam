@@ -18,7 +18,7 @@ MonoBehaviour:
   entries:
   - dialogue_line: "Salut John, j'ai appris que \xE7a l'avait pas fait avec le proprio."
     unlocks: []
-    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    character: {fileID: 11400000, guid: ba73e385045ad4e6bbf3271a720da520, type: 2}
     answers: []
     checkpoint: 1
     translated: 0
