@@ -21,6 +21,12 @@ public struct ScenarioStepEffect
 }
 
 [System.Serializable]
+public struct SlideshowPopupConfig
+{
+    public IntroScreen prefab;
+}
+
+[System.Serializable]
 public struct ConditionConfig
 {
     public ConditionType condition_type;
@@ -113,6 +119,7 @@ public enum QuestlinePlaymode
 public class QuestlineConfig : ScriptableObject 
 {
     public QuestlinePlaymode play_mode;
+    public SlideshowPopupConfig post_slideshow;
     public DialogueEntry[] entries;
 }
 

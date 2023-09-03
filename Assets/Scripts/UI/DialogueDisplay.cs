@@ -134,6 +134,11 @@ public class DialogueDisplay : MonoBehaviour
         if(current_entry == null || current_entry.character != entry.character)
         {
             questline_state.OnDialogueEnd();
+            if(questline_state.questline.post_slideshow.prefab != null)
+            {
+                Instantiate(questline_state.questline.post_slideshow.prefab, PanelSlotManager.instance.slideshow_panel);
+
+            }
             StartCoroutine(DestroyCoroutine());
             QuestlineManager.instance.UpdateUnlockedCharacterList();
         }
