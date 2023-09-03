@@ -19,4 +19,4 @@ MonoBehaviour:
   contact: Contact truc truc
   passion: "Passion-p\xEAche"
   origine_country: Bratislava
-  cv_portrait: {fileID: 21300000, guid: 066ce4ebe8a9808469a2d0065feef921, type: 3}
+  portrait: {fileID: 21300000, guid: 456ca3619c1df3b4a86a015b41d3f789, type: 3}

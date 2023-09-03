@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 4472868851760997280}
   - component: {fileID: 6477430550825996822}
   m_Layer: 5
-  m_Name: Dialogue Panel
+  m_Name: Outro Dialogue Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   character_portrait: {fileID: 1140610443151580106}
   character_name_text: {fileID: 5638131506274747367}
   next_button: {fileID: 4235036376219584430}
-  fade_duration: 0.3
+  fade_duration: 1
   bubble_appear_duration: 0.3
   bubble_appear_delay: 1
   bubble_appear_delay_translated: 2
@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.87058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

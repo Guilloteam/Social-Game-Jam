@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class CvDisplay : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class CvDisplay : MonoBehaviour
     public TMPro.TextMeshProUGUI contact;
     public TMPro.TextMeshProUGUI passion;
     public TMPro.TextMeshProUGUI origine_country;
+    public Image portrait;
 
     public void Start()
     {
@@ -22,6 +25,7 @@ public class CvDisplay : MonoBehaviour
         contact.text = cv_config.contact;
         passion.text = cv_config.passion;
         origine_country.text = cv_config.origine_country;
+        portrait.sprite = cv_config.portrait;
     }
 
 }

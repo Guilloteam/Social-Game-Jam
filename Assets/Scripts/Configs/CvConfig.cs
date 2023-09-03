@@ -12,5 +12,5 @@ public class CvConfig : ScriptableObject
     public new string contact;
     public new string passion;
     public new string origine_country;
-    public Sprite cv_portrait;
+    public Sprite portrait;
 }

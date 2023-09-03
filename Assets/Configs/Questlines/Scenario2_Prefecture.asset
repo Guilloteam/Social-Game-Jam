@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Scenario2_Prefecture
   m_EditorClassIdentifier: 
   play_mode: 0
-  entries: []
+  entries:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+    answers: []
+    checkpoint: 0

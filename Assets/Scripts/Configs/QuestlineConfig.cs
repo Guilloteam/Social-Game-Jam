@@ -98,11 +98,14 @@ public class DialogueEntry
     public CharacterConfig character;
     public BranchResultConfig[] answers;
     public bool checkpoint;
+    public bool translated;
+    [TextArea(3, 5)]
+    public string translated_dialogue_line;
 }
 
 public enum QuestlinePlaymode
 {
-    PlayOnce, Loop, Checkpoint
+    PlayOnce, Loop, Checkpoint, Ending
 }
 
 [CreateAssetMenu()]

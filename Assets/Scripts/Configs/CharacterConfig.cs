@@ -10,5 +10,5 @@ public class CharacterConfig: ScriptableObject
     public Sprite minimap_icon;
     [TextAreaAttribute(3, 5)]
     public string tooltip;
-    public DialogueEntry[] default_dialogue;
+    public QuestlineConfig default_dialogue_config;
 }

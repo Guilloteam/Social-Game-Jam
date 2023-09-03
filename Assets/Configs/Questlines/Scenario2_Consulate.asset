@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Scenario2_Consulate
   m_EditorClassIdentifier: 
   play_mode: 0
-  entries: []
+  entries:
+  - dialogue_line: 
+    unlocks: []
+    character: {fileID: 11400000, guid: 8141e59871bbf454d8bfb4d2ad430292, type: 2}
+    answers: []
+    checkpoint: 0

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario1_Default_Kevin_Dialogue
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  entries:
+  - dialogue_line: "Salut Emily, comment \xE7a va aujourd'hui ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers:
+    - answer: Tout va bien !
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    - answer: "\xC7a va, mais c'est normal que \xE7a sente toujours autant le fromage
+        ici ?"
+      conditions: []
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ahah oui, l\u2019odeur de fromage, \xE7a fait tout dr\xF4le
+          au d\xE9but, mais on s\u2019habitue."
+        unlocks: []
+        character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    - answer: "Un peu fatigu\xE9e, je mets une \xE9ternit\xE9 \xE0 venir le matin.
+        L\u2019appart de mon copain est trop loin, j\u2019esp\xE8re me rapprocher
+        rapidement. "
+      conditions:
+      - condition_type: 1
+        condition_operator: 0
+        variable: {fileID: 11400000, guid: e619d35d6698352438b2759354825c9f, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ah, tu cherches un appart ? Il y a une place qui se lib\xE8re
+          dans ma coloc. C\u2019est \xE0 20 minutes \xE0 pied du boulot en plus.
+          Tu vas voir, \xE7a te changera la vie !"
+        unlocks: []
+        character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+        answers:
+        - answer: "\xC7a serait g\xE9nial ! Je peux venir visiter ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      - dialogue_line: "Bien s\xFBr ! Je ne suis pas l\xE0 ce soir, mais je pr\xE9viens
+          M Gervais, le propri\xE9taire. Il pourra te montrer l'appartement !"
+        unlocks:
+        - {fileID: 11400000, guid: dcdd66325e316426d83e72693db214cc, type: 2}
+        character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+        answers:
+        - answer: Top, merci beaucoup !
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 

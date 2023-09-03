@@ -12,17 +12,20 @@ public class CharacterButton : MonoBehaviour
     public Image character_icon;
     public TMPro.TextMeshProUGUI name_text;
     public DialogueDisplay dialogue_display_prefab;
+    private CanvasGroup canvas_group;
+    public float appear_duration = 1;
     
     private void Start()
     {
+        canvas_group = GetComponent<CanvasGroup>();
         if(Application.IsPlaying(this))
         {
-            button.gameObject.SetActive(QuestlineManager.instance.unlocked_characters.Contains(character));
+            canvas_group.alpha = QuestlineManager.instance.unlocked_characters.Contains(character) ? 1 : 0;
             QuestlineManager.instance.character_unlock_delegate += (CharacterConfig character) =>
             {
                 if (character == this.character)
                 {
-                    button.gameObject.SetActive(true);
+                    StartCoroutine(UnlockCoroutine());
                 }
             };
 
@@ -35,8 +38,17 @@ public class CharacterButton : MonoBehaviour
                     dialogue_display.entry = entry;
                 }
             });
-
         }
+    }
+
+    public IEnumerator UnlockCoroutine()
+    {
+        for(float time=0; time < appear_duration; time += Time.deltaTime)
+        {
+            canvas_group.alpha = time / appear_duration;
+            yield return null;
+        }
+        canvas_group.alpha = 1;
     }
 
     public void Update()

@@ -6,12 +6,14 @@ public class DialogueBubbleAnim : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI text;
     public float fold_duration = 0.5f;
-    public float fade_duration = 0.5f;
+    public float unfold_duration = 0.5f;
     public string pending_text;
     public float anim_direction = 0;
     public float anim_cursor = 0;
     public AnimationCurve scale_curve = AnimationCurve.Linear(0, 0, 1, 1);
     public AnimationCurve alpha_curve = AnimationCurve.Linear(0, 0, 1, 1);
+    public AnimationCurve visibility_curve = AnimationCurve.Linear(0, 1, 1, 1);
+    public CanvasGroup canvas_group;
     private Color text_color;
 
     private void Start()
@@ -40,9 +42,14 @@ public class DialogueBubbleAnim : MonoBehaviour
 
     void Update()
     {
-        anim_cursor += anim_direction * Time.deltaTime / fold_duration;
+        float anim_duration = fold_duration;
+        if (anim_direction > 0)
+            anim_duration = unfold_duration;
+        anim_cursor += anim_direction * Time.deltaTime / anim_duration;
         transform.localScale = new Vector3(scale_curve.Evaluate(anim_cursor), 1, 1);
         text.color = new Color(text_color.r, text_color.g, text_color.b, alpha_curve.Evaluate(anim_cursor));
+        if(canvas_group != null)
+            canvas_group.alpha = visibility_curve.Evaluate(anim_cursor);
         if(anim_cursor < 0)
         {
             anim_cursor = 0;

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public struct StepStackElement
@@ -19,6 +20,7 @@ public class QuestlineState
     public List<StepStackElement> step_stack;
     public QuestlineConfig questline;
     public StepStackElement[] last_checkpoint;
+    public bool outro_mode = false;
     public DialogueEntry current_dialogue_entry 
     {
         get
@@ -102,13 +104,18 @@ public class QuestlineState
                         step_stack.Add(last_checkpoint[i]);
                 }
                 break;
+            case QuestlinePlaymode.Ending:
+                QuestlineManager.instance.TriggerOutro();
+                break;
         }
+
     }
 }
 
 public class QuestlineManager : MonoBehaviour
 {
     public static QuestlineManager instance;
+    public DialogueDisplay outro_dialogue_display_prefab;
     public QuestlineConfig[] questlines;
     public QuestlineConfig[] initial_questlines;
     public Dictionary<VariableConfig, int> variables = new Dictionary<VariableConfig, int>();
@@ -118,6 +125,13 @@ public class QuestlineManager : MonoBehaviour
     public List<CharacterConfig> unlocked_characters = new List<CharacterConfig>();
 
     public System.Action<CharacterConfig> character_unlock_delegate;
+
+    public QuestlineConfig outro_questline;
+    public float outro_transition_duration = 1;
+    public CanvasGroup outro_canvas_group;
+    public bool playing_outro = false;
+
+    public string next_level_scene;
 
     private void Awake()
     {
@@ -164,17 +178,21 @@ public class QuestlineManager : MonoBehaviour
 
     public QuestlineState PickQuestline(CharacterConfig character)
     {
+        QuestlineState questline_state = null;
         for(int i=0; i<questline_states.Count; i++)
         {
-            QuestlineState questline_state = questline_states[i];
+            questline_state = questline_states[i];
             DialogueEntry dialogue_entry = questline_state.current_dialogue_entry;
             if (dialogue_entry != null && dialogue_entry.character == character)
             {
                 return questline_states[i];
             }
         }
-        QuestlineConfig default_questline_config = new QuestlineConfig { entries = character.default_dialogue, play_mode = QuestlinePlaymode.PlayOnce };
-        return new QuestlineState { questline = default_questline_config, step_stack = new List<StepStackElement> { new StepStackElement { } } };
+        QuestlineConfig default_questline_config = character.default_dialogue_config;
+        questline_state = new QuestlineState { questline = default_questline_config, step_stack = new List<StepStackElement> { new StepStackElement { } } };
+        questline_states.Add(questline_state);
+
+        return questline_state;
     }
 
     internal void UnlockQuestlines(QuestlineConfig[] unlocks)
@@ -185,4 +203,33 @@ public class QuestlineManager : MonoBehaviour
         }
     }
 
+    public void TriggerOutro()
+    {
+        StartCoroutine(OutroTransitionCoroutine());
+    }
+
+    private IEnumerator OutroTransitionCoroutine()
+    {
+        playing_outro = true;
+        questline_states.Clear();
+        outro_canvas_group.blocksRaycasts = true;
+        for(float time=0;time<outro_transition_duration;time+=Time.deltaTime)
+        {
+            outro_canvas_group.alpha = time / outro_transition_duration;
+            yield return null;
+        }
+        outro_canvas_group.alpha = 1;
+        QuestlineState questline= new QuestlineState { questline = outro_questline, step_stack = new List<StepStackElement>() { new StepStackElement { } }, outro_mode = true };
+        questline_states.Add(questline);
+        DialogueEntry entry = questline.current_dialogue_entry;
+        DialogueDisplay dialogue_display = Instantiate(outro_dialogue_display_prefab, PanelSlotManager.instance.dialogue_panel);
+        dialogue_display.outro_dialogue = true;
+        dialogue_display.entry = entry;
+
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(next_level_scene);
+    }
 }

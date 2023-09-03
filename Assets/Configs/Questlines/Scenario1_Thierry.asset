@@ -24,6 +24,8 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
   - dialogue_line: "Oh moi aussi, bienvenue en France ma ch\xE9rie ! \n"
     unlocks: []
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
@@ -35,6 +37,8 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
   - dialogue_line: "Non pas du tout, au contraire. Et tu verras, toi aussi bient\xF4t
       tu trouveras un chouette appartement dans le quartier j\u2019esp\xE8re. \n\n"
     unlocks: []
@@ -48,6 +52,8 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
   - dialogue_line: "Mais oui, je vais rep\xE9rer un peu des annonces pour toi, je
       connais les bons plans. Et pour le travail, tu as r\xE9fl\xE9chi un peu \xE0
       ce que tu voulais faire ? \n"
@@ -61,10 +67,13 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
   - dialogue_line: "Il faut absolument que je te pr\xE9sente mon amie Lauranne. Elle
       est recruteuse dans une grosse bo\xEEte, Baguette incorporated.\n"
     unlocks:
     - {fileID: 11400000, guid: fceeb27031b7746ae913163e326913e9, type: 2}
+    - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
     - answer: "Ouah ! G\xE9nial, trop h\xE2te !"
@@ -73,3 +82,5 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
