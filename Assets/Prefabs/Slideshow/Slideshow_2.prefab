@@ -306,8 +306,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu es <b>Emily</b>, une jeune femme venant d\u2019un pays ayant un accord
-    de libre circulation avec la France. "
+  m_text: "Apr\xE8s deux ann\xE9es enti\xE8res \xE0 \xE9conomiser de l\u2019argent,
+    tu ach\xE8tes un billet d\u2019avion aller pour la France, sans retour."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
@@ -441,9 +441,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Apr\xE8s quelques ann\xE9es de relation \xE0 distance, tu d\xE9cides de
-    t\u2019installer en France pour rejoindre <b>Thierry</b>, ton petit copain rencontr\xE9
-    pendant ton ann\xE9e Erasmus\r.\n"
+  m_text: "Tu as d\xE9cid\xE9 de quitter ton pays la <b>Vallania</b>, en raison de
+    l\u2019instabilit\xE9 \xE9conomique entra\xEEn\xE9e par les bouleversements politiques
+    r\xE9cents qui l\u2019ont frapp\xE9. Tu souhaites trouver en France une vie meilleure,
+    pour toi mais aussi pour soutenir ta famille rest\xE9e au pays qui compte sur
+    toi. Tu sais n\xE9anmoins que tu n\u2019as pas de permis de travail en France. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
@@ -818,7 +820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chapitre 1 : <b>Emily</b>'
+  m_text: 'Chapitre 2 : <b>John</b>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
   m_sharedMaterial: {fileID: 7250124770320246196, guid: 8cf7b7069287ac2429bb16483e2499a8, type: 2}
@@ -902,7 +904,7 @@ GameObject:
   - component: {fileID: 389831777981872104}
   - component: {fileID: 5212745129334839410}
   m_Layer: 5
-  m_Name: Slideshow
+  m_Name: Slideshow_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1529,8 +1531,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A peine sortie de l\u2019a\xE9roport, tu n\u2019as rien d\u2019autre sur
-    toi que l\u2019adresse de l\u2019appartement o\xF9 vit <b>Thierry</b>."
+  m_text: "Pour ton arriv\xE9e, un cousin fran\xE7ais \xE9loign\xE9, <b>Fergus</b>,
+    a accept\xE9 de t\u2019accueillir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a91d402899aae64986c88c597480425, type: 2}
   m_sharedMaterial: {fileID: -7608749695610663463, guid: 0a91d402899aae64986c88c597480425, type: 2}
