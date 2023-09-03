@@ -14,45 +14,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   play_mode: 0
   entries:
-  - dialogue_line: ...
+  - dialogue_line: Oui hallo ?
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: Salut
+    - answer: "Bonjour, je suis John, j\u2019ai visit\xE9 la semaine derni\xE8re
+        votre appartement avec Kevin, et vous ai envoy\xE9 mon dossier. L\u2019avez-vous
+        re\xE7u ?"
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: "Bonjour. John vous dites ? Ah oui, je me souviens. Je suis d\xE9sol\xE9,
+      mais votre dossier est un peu mince."
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: "Vos revenus sont assez faibles. Et puis, je n\u2019ai pas vu
+      votre contrat de travail, vous pourriez peut-\xEAtre me l\u2019envoyer ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: J'ai entendu dire que tu louais une chambre ?
-      conditions:
-      - condition_type: 0
-        condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
-        condition_value: 0
-        character_value: {fileID: 0}
-        expected_unlock_state: 0
+    - answer: "C\u2019est \xE0 dire que je viens d\u2019arriver en France, il me
+        faut un peu de temps pour faire mon trou, mais \xE7a devrait vite s\u2019arranger.
+        Et mon travail ne fait pas vraiment l\u2019objet d\u2019un contrat, mais
+        c\u2019est du long terme, je vous assure !"
+      conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: "Je suis d\xE9sol\xE9 jeune homme, je ne peux pas accepter, le
+      risque est trop important pour moi\u2026"
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: "Je reviens vers toi par rapport \xE0 la chambre dont tu m'avais parl\xE9"
-      conditions:
-      - condition_type: 0
-        condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
-        condition_value: 1
-        character_value: {fileID: 0}
-        expected_unlock_state: 0
-      effects: []
+    - answer: "J\u2019ai absolument besoin de ce logement, je vous en prie"
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: e619d35d6698352438b2759354825c9f, type: 2}
+        to_add: 1
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1
+  - dialogue_line: "Non, d\xE9sol\xE9."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 1

@@ -14,41 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   play_mode: 0
   entries:
-  - dialogue_line: ...
+  - dialogue_line: "Alors, l\u2019appartement te pla\xEEt ? Tu connais le loyer et
+      les conditions, si tout est ok pour toi, pour nous aussi, je te laisse te rapprocher
+      du propri\xE9taire, et on se revoit bient\xF4t j\u2019esp\xE8re ? "
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
     answers:
-    - answer: Salut
-      conditions: []
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
-    unlocks: []
-    character: {fileID: 0}
-    answers:
-    - answer: J'ai entendu dire que tu louais une chambre ?
+    - answer: 'C''est l''appart parfait pour moi ! Le proprio est cool ?
+
+'
       conditions:
-      - condition_type: 0
+      - condition_type: 1
         condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
-        condition_value: 0
-        character_value: {fileID: 0}
-        expected_unlock_state: 0
-      effects: []
-      dialogue_entries: []
-      unlocks: []
-    checkpoint: 0
-  - dialogue_line: Salut c'est pour quoi ?
-    unlocks: []
-    character: {fileID: 0}
-    answers:
-    - answer: "Je reviens vers toi par rapport \xE0 la chambre dont tu m'avais parl\xE9"
-      conditions:
-      - condition_type: 0
-        condition_operator: 1
-        variable: {fileID: 11400000, guid: 0c673c0b892a94c6c9cd0a115618f304, type: 2}
+        variable: {fileID: 11400000, guid: 54a5a5505ad8949b18535690e5f8e224, type: 2}
         condition_value: 1
         character_value: {fileID: 0}
         expected_unlock_state: 0
@@ -56,3 +34,24 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Oui carr\xE9ment, normalement il n\u2019y aura pas de probl\xE8me,
+      il m\u2019a accept\xE9 alors que j\u2019\xE9tais au ch\xF4mage ! "
+    unlocks: []
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: Tu devrais l'appeler et voir directement avec lui
+    unlocks:
+    - {fileID: 11400000, guid: 380e240af2bd943fe9c5d92243f69a3a, type: 2}
+    character: {fileID: 11400000, guid: 9fd3a267141554c6daaa30906e617ebb, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
