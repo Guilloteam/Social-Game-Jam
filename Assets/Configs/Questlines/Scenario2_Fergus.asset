@@ -63,14 +63,17 @@ MonoBehaviour:
                 checkpoint: 0
                 translated: 0
                 translated_dialogue_line: 
+                on_phone: 0
               unlocks: []
             checkpoint: 0
             translated: 0
             translated_dialogue_line: 
+            on_phone: 0
           unlocks: []
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
+        on_phone: 0
       unlocks: []
     - answer: "Salut Fergus, je reviens de la pr\xE9fecture. Visiblement, il faut
         que je trouve un logement et un travail pour faire une demande de r\xE9gularisation\u2026 "
@@ -130,19 +133,98 @@ MonoBehaviour:
                     checkpoint: 0
                     translated: 0
                     translated_dialogue_line: 
+                    on_phone: 0
                   unlocks: []
                 checkpoint: 0
                 translated: 0
                 translated_dialogue_line: 
+                on_phone: 0
               unlocks: []
             checkpoint: 0
             translated: 0
             translated_dialogue_line: 
+            on_phone: 0
           unlocks: []
         checkpoint: 0
         translated: 0
         translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+    - answer: "Salut Fergus, je reviens une 2e fois de la pr\xE9fecture"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: Justement je voulais te parler.
+        unlocks: []
+        character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+        answers:
+        - answer: ...
+          conditions: []
+          effects: []
+          dialogue_entries:
+          - dialogue_line: "Je ne peux plus t\u2019h\xE9berger. On s\u2019est embrouill\xE9s
+              avec ma copine par rapport \xE0 ta pr\xE9sence, elle voudrait qu\u2019on
+              retrouve un peu d\u2019intimit\xE9..."
+            unlocks: []
+            character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+            answers:
+            - answer: Et...
+              conditions: []
+              effects: []
+              dialogue_entries:
+              - dialogue_line: "Je comprends que ta situation est gal\xE8re mais
+                  si tu pouvais trouver un logement rapidement, ce serait vraiment
+                  bien\u2026 Je t\u2019ai imprim\xE9 des annonces, tu pourras regarder
+                  ? "
+                unlocks: []
+                character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+                answers:
+                - answer: Je comprends... ouais je veux bien
+                  conditions: []
+                  effects: []
+                  dialogue_entries:
+                  - dialogue_line: "Et puis je t\u2019ai d\xE9j\xE0 parl\xE9 de Vincent
+                      ? C\u2019est un ami d\u2019amis. Si j\u2019ai bien compris,
+                      il est dans des collectifs de solidarit\xE9s aux migrants,
+                      et il ouvre des squats. Je peux te trouver son contact aussi. "
+                    unlocks: []
+                    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+                    answers:
+                    - answer: Je vais essayer de l'appeler
+                      conditions: []
+                      effects: []
+                      dialogue_entries: []
+                      unlocks:
+                      - {fileID: 11400000, guid: 2e18bedde389c4a9c81691cae55a04c0, type: 2}
+                      - {fileID: 11400000, guid: 0f7fb827347034c4f9ccc2e4050b1187, type: 2}
+                      - {fileID: 11400000, guid: cb5add7a058f242a29244946bf4bb593, type: 2}
+                    checkpoint: 0
+                    translated: 0
+                    translated_dialogue_line: 
+                    on_phone: 0
+                  unlocks: []
+                checkpoint: 0
+                translated: 0
+                translated_dialogue_line: 
+                on_phone: 0
+              unlocks: []
+            checkpoint: 0
+            translated: 0
+            translated_dialogue_line: 
+            on_phone: 0
+          unlocks: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
       unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
