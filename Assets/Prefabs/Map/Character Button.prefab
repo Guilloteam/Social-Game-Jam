@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 857688745890527784}
   - component: {fileID: 5331950337338531303}
   - component: {fileID: 5571677710925397267}
+  - component: {fileID: 1681531625737308282}
   m_Layer: 5
   m_Name: Character Button
   m_TagString: Untagged
@@ -141,6 +142,19 @@ MonoBehaviour:
   character_icon: {fileID: 3382619158712836573}
   name_text: {fileID: 6156029048325914071}
   dialogue_display_prefab: {fileID: 1887830899184258227, guid: 8ef7450169c18e64d950edc7ec148ab6, type: 3}
+  appear_duration: 1
+--- !u!225 &1681531625737308282
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709484682747596504}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1403074392882161987
 GameObject:
   m_ObjectHideFlags: 0

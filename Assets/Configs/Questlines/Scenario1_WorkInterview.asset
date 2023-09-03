@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
   m_Name: Scenario1_WorkInterview
   m_EditorClassIdentifier: 
+  play_mode: 0
   entries:
   - dialogue_line: "Enchant\xE9e Emily, Thierry m\u2019a beaucoup parl\xE9 de toi.
       Nous sommes justement en train de chercher quelqu\u2019un comme toi pour rejoindre
@@ -28,6 +29,8 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
   - dialogue_line: "Parfait, tu serais pr\xEAte \xE0 commencer quand?"
     unlocks:
     - {fileID: 11400000}
@@ -39,7 +42,10 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Parfait, alors rdv demain \xE0 9h."
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Parfait, alors rdv demain \xE0 9h. Va voir Kevin, c'est lui qui
+      s'occupera de ton <i>onboarding</i>"
     unlocks:
     - {fileID: 11400000, guid: 10c85e93c04954ed1a06af40d30c5756, type: 2}
     character: {fileID: 11400000, guid: f6231a25c624346ff8f52deb0b820dd3, type: 2}
@@ -50,3 +56,5 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 

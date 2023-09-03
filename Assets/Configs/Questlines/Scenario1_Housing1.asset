@@ -24,10 +24,11 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: MMM EJ SREOCI PAUUECBO ED IORSSSED MIAS VSOU OPVEZU M OREYVNE
-      PRA ALMI TVORE NEEIRDR AVSI D IOMTSNIIOP SAIIN EUQ SVO FSEHCI DE PYEA DES OISTR
-      ERSNDEIR ISMO ANTOEINTT OSVU DEEZV NBIE RNAEGG RSTOI FISO LE ATMOTNN DU OERYL
-      C EST ONN IANCELEOGB
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Mmm im receive a lim -o files. But cin tur- send nin bui email
+      c\xEDn vedui tax glinth- sui eithel sui c\xEDn paui slips an i vedui neled
+      months. N- careful, cin must earn neled times i rent amount, ha na- non-negotiable"
     unlocks:
     - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
@@ -39,10 +40,11 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Mmm je re\xE7ois beaucoup de dossiers. Mais vous pouvez m\u2019envoyer
-      par mail votre dernier avis d\u2019imposition ainsi que vos fiches de paye
-      des trois derniers mois. Attention, vous devez bien gagner trois fois le montant
-      du loyer, c\u2019est non n\xE9gociable."
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Mmm im receive a lim -o files. But cin tur- send nin bui email
+      c\xEDn vedui tax glinth- sui eithel sui c\xEDn paui slips an i vedui neled
+      months. N- careful, cin must earn neled times i rent amount, ha na- non-negotiable"
     unlocks:
     - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
@@ -53,14 +55,23 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
-    checkpoint: 0
-  - dialogue_line: "D\xE9sol\xE9, \xE7a ne sera pas possible. Au revoir."
+    checkpoint: 1
+    translated: 1
+    translated_dialogue_line: "Mmm je re\xE7ois beaucoup de dossiers. Mais vous pouvez
+      m\u2019envoyer par mail votre dernier avis d\u2019imposition ainsi que vos
+      fiches de paye des trois derniers mois. Attention, vous devez bien gagner trois
+      fois le montant du loyer, c\u2019est non n\xE9gociable."
+  - dialogue_line: Sorrui, i won't n- possible. Bye
     unlocks: []
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
-    - answer: ...
+    - answer: Bon, eh bien il va falloir trouver un logement autre part...
       conditions: []
-      effects: []
+      effects:
+      - variable: {fileID: 11400000, guid: e619d35d6698352438b2759354825c9f, type: 2}
+        to_add: 1
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 1
+    translated_dialogue_line: "D\xE9sol\xE9, \xE7a ne sera pas possible. Au revoir."

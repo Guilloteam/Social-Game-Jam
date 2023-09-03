@@ -12,26 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
   m_Name: Scenario1_MonsieurGervais
   m_EditorClassIdentifier: 
+  play_mode: 3
   entries:
-  - dialogue_line: 
+  - dialogue_line: "...\nAlors voici le salon... Les chambres... Et l\xE0 la salle
+      de bains. Comme on a d\xFB vous le dire, nous avons une place, si vous avez
+      votre dossier sous la main on peut regarder \xE7a tout de suite."
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
-    - answer: "Bonjour Monsieur ! Kevin m\u2019a parl\xE9 de votre appartement. Je
-        l\u2019ai visit\xE9, \xE7a correspond vraiment \xE0 ce que je recherche et
-        l\u2019ambiance entre colocs est super ! Est-ce que vous avez pu regarder
-        le dossier que je vous ai envoy\xE9 ? "
+    - answer: "Oui, j'ai bien fait de le pr\xE9parer avant de venir ! Le voici !"
       conditions: []
       effects: []
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
-  - dialogue_line: "Mais oui, j\u2019ai bien re\xE7u ! \xC9coutez, pour moi tout
-      est ok, votre situation m\u2019a l\u2019air stable. Et je fais confiance \xE0
-      Kevin, c\u2019est un tr\xE8s bon locataire\u2026 m\xEAme s\u2019il sent assez
-      fort le fromage\u2026il a toujours ramen\xE9 des gens s\xE9rieux dans cet appartement.
-      Vous \xEAtes disponible lundi prochain pour que je vous remette les cl\xE9s
-      ?"
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: 'Parfait ! '
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: '...
+
+      ...
+
+      ...'
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "\xC9coutez, pour moi tout est ok, votre situation m\u2019a l\u2019air
+      stable. Et je fais confiance \xE0 Kevin, c\u2019est un tr\xE8s bon locataire\u2026
+      m\xEAme s\u2019il sent assez fort le fromage\u2026il a toujours ramen\xE9 des
+      gens s\xE9rieux dans cet appartement. Vous \xEAtes disponible lundi prochain
+      pour que je vous remette les cl\xE9s ?"
     unlocks: []
     character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
     answers:
@@ -41,3 +60,5 @@ MonoBehaviour:
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
