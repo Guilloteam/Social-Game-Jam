@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3acd9fb3be6c64598c63225044e480, type: 3}
   m_Name: CV_02
   m_EditorClassIdentifier: 
-  name: Jason
-  age: 20
-  diplome: Diploma truc truc
-  experience: Exp truc truc
-  contact: Contact truc truc
-  passion: "Passion-p\xEAche"
-  origine_country: Bratislava
+  name: John
+  age: 30 ans
+  french_level: "C1 (confirm\xE9)"
+  diplome: "Bac +5, ing\xE9nieur informatique"
+  experience: "4 ans d'\xE9xp\xE9rience pro"
+  contact: "<b>Fergus</b>, un cousin Fran\xE7ais"
+  passion: La famille, les chats, le foot
+  origine_country: <b>Vallania</b>, pays n'ayant pas un accord de libre-circulation
+    avec la France
   portrait: {fileID: 21300000, guid: 456ca3619c1df3b4a86a015b41d3f789, type: 3}
