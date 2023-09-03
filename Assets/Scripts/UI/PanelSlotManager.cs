@@ -6,6 +6,7 @@ public class PanelSlotManager : MonoBehaviour
 {
     public static PanelSlotManager instance;
     public RectTransform dialogue_panel;
+    public RectTransform slideshow_panel;
 
     private void Awake()
     {
