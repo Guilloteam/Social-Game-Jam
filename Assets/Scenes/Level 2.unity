@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1072919564}
     m_Modifications:
+    - target: {fileID: 5219868026122360656, guid: 06498e5ddc890e54ebf722152a20839a, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5520804205947808668, guid: 06498e5ddc890e54ebf722152a20839a, type: 3}
       propertyPath: m_Name
       value: Intro Slideshow level 2
@@ -552,6 +556,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480645996176576929, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685762763087119188, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -229
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685762763087119188, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

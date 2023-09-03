@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Scenario1_Housing1
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
-  - dialogue_line: Oui hallo ?
+  - dialogue_line: Oui allo ?
     unlocks: []
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
@@ -26,6 +28,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: "Mmm im receive a lim -o files. But cin tur- send nin bui email
       c\xEDn vedui tax glinth- sui eithel sui c\xEDn paui slips an i vedui neled
       months. N- careful, cin must earn neled times i rent amount, ha na- non-negotiable"
@@ -42,6 +45,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 0
   - dialogue_line: "Mmm im receive a lim -o files. But cin tur- send nin bui email
       c\xEDn vedui tax glinth- sui eithel sui c\xEDn paui slips an i vedui neled
       months. N- careful, cin must earn neled times i rent amount, ha na- non-negotiable"
@@ -49,8 +53,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a510cb91123bc48c89f1e9256798c242, type: 2}
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
     answers:
-    - answer: "Je suis encore en recherche d'emploi. Est-ce \xE7a peut le faire pour
-        vous ?"
+    - answer: "Je suis encore en recherche d'emploi. Est-ce que \xE7a peut le faire
+        pour vous ?"
       conditions: []
       effects: []
       dialogue_entries: []
@@ -61,6 +65,7 @@ MonoBehaviour:
       m\u2019envoyer par mail votre dernier avis d\u2019imposition ainsi que vos
       fiches de paye des trois derniers mois. Attention, vous devez bien gagner trois
       fois le montant du loyer, c\u2019est non n\xE9gociable."
+    on_phone: 0
   - dialogue_line: Sorrui, i won't n- possible. Bye
     unlocks: []
     character: {fileID: 11400000, guid: 9a63d2228f63140a2a93872851d972b7, type: 2}
@@ -75,3 +80,4 @@ MonoBehaviour:
     checkpoint: 0
     translated: 1
     translated_dialogue_line: "D\xE9sol\xE9, \xE7a ne sera pas possible. Au revoir."
+    on_phone: 0
