@@ -984,6 +984,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541971363}
   m_CullTransparentMesh: 1
+--- !u!1 &649209319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1220276001540854924, guid: 2af51ba4c83f93540b6c24247ddb09c7, type: 3}
+  m_PrefabInstance: {fileID: 1725255721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649209323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649209319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac2d6763344a854e8f3f698208d4dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 9bae895f10f72a94fb89692cf35741bd, type: 2}
+  configs:
+  - param_name: City Volume
+    start_value: 0
+    end_value: -80
+  transition_duration: 1
+  transition_ratio: 0
+  anim_direction: 0
 --- !u!1 &679082427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,7 +2927,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1220276001540854924, guid: 2af51ba4c83f93540b6c24247ddb09c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 649209323}
   m_SourcePrefab: {fileID: 100100000, guid: 2af51ba4c83f93540b6c24247ddb09c7, type: 3}
 --- !u!1 &1773487245
 GameObject:
