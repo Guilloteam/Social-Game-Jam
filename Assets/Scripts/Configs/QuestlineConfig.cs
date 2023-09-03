@@ -101,6 +101,7 @@ public class DialogueEntry
     public bool translated;
     [TextArea(3, 5)]
     public string translated_dialogue_line;
+    public bool on_phone;
 }
 
 public enum QuestlinePlaymode
