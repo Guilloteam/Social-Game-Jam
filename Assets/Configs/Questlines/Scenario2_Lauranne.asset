@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Scenario2_Lauranne
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
   entries:
   - dialogue_line: "Oui bonjour, Lauranne de Baguette Inc au t\xE9l\xE9phone."
     unlocks: []
@@ -28,6 +30,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 1
   - dialogue_line: "On a bien re\xE7u votre dossier mais malheureusement nous ne
       pouvons pas y donner suite. "
     unlocks: []
@@ -35,12 +38,15 @@ MonoBehaviour:
     answers:
     - answer: Ah...
       conditions: []
-      effects: []
+      effects:
+      - variable: {fileID: 11400000, guid: 48b72a76ee95ccd4a850ccc1e58bbf87, type: 2}
+        to_add: 1
       dialogue_entries: []
       unlocks: []
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 1
   - dialogue_line: "Comme votre dipl\xF4me a \xE9t\xE9 d\xE9livr\xE9 en Vallania,
       nous ne consid\xE9rons pas que vos comp\xE9tences sont \xE0 la hauteur des
       attentes du poste auquel vous avez postul\xE9."
@@ -57,6 +63,7 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 1
   - dialogue_line: "D\xE9sol\xE9e, \xE7a ne correspond pas \xE0 la politique de Baguette
       Inc. Bonne journ\xE9e."
     unlocks: []
@@ -70,3 +77,4 @@ MonoBehaviour:
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
+    on_phone: 1

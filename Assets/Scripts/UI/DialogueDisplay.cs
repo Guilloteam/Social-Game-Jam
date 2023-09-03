@@ -100,7 +100,7 @@ public class DialogueDisplay : MonoBehaviour
             }
             else
                 yield return new WaitForSeconds(bubble_appear_delay);
-            single_answer_anim.Show(entry.answers[0].answer);
+            single_answer_anim.Show(available_answers[0].answer);
             yield return new WaitForSeconds(bubble_appear_delay / 2);
             next_button.gameObject.SetActive(true);
         }

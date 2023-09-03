@@ -16,9 +16,4 @@ MonoBehaviour:
   dialogue_portrait: {fileID: 21300000, guid: 00b6073acad9e0347bb8bafdb06d56ee, type: 3}
   minimap_icon: {fileID: 21300000, guid: 5474b670a294e9643974e36f467ec4bd, type: 3}
   tooltip: 
-  default_dialogue:
-  - dialogue_line: 
-    unlocks: []
-    character: {fileID: 0}
-    answers: []
-    checkpoint: 0
+  default_dialogue_config: {fileID: 11400000, guid: 623e8596af4274907bbc1bf9dd20380b, type: 2}
