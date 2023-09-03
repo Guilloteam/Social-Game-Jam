@@ -18,4 +18,4 @@ MonoBehaviour:
   tooltip: 'Militant pour le droit au logement
 
     Ouvreur de squats'
-  default_dialogue_config: {fileID: 0}
+  default_dialogue_config: {fileID: 11400000, guid: a8acf3f9096ed4096b2a4a9a9dcc942d, type: 2}
