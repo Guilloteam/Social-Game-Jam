@@ -16,4 +16,4 @@ MonoBehaviour:
   dialogue_portrait: {fileID: 21300000, guid: ba27f3cab99195e4ea98b77283013358, type: 3}
   minimap_icon: {fileID: 21300000, guid: 965129e35ea4f9e43800fb90a39e9022, type: 3}
   tooltip: "Propri\xE9taire d'un studio en centre-ville"
-  default_dialogue_config: {fileID: 0}
+  default_dialogue_config: {fileID: 11400000, guid: e08968a1becb94963b32d90b5171425a, type: 2}

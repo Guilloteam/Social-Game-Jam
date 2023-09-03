@@ -18,7 +18,7 @@ MonoBehaviour:
   entries:
   - dialogue_line: Salut mon amour, netflix & chill ce soir ?
     unlocks: []
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 13cf09b1420364f3aa9fac490f76b32b, type: 2}
     answers:
     - answer: Ok !
       conditions: []
