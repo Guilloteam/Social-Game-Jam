@@ -350,9 +350,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1072919564}
     m_Modifications:
+    - target: {fileID: 255319526562219249, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: Ouvert les lundis
+      objectReference: {fileID: 0}
     - target: {fileID: 294754955663678407, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427970000464156711, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: Restauratrice bienveillante
       objectReference: {fileID: 0}
     - target: {fileID: 446408852120752201, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_Name
@@ -370,9 +378,17 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1555246210549603539, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: "Ouvert de 2h \xE0 3h le jeudi"
+      objectReference: {fileID: 0}
     - target: {fileID: 2312901578204440634, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367329349284558951, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: Recruteuse de Baguette Inc
       objectReference: {fileID: 0}
     - target: {fileID: 2738732503409449859, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
@@ -462,6 +478,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3884474734551764326, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: "CEO de BeStrong \n(1 salari\xE9, 38 int\xE9rims)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884474734551764326, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4036768423100773341, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_text
       value: Mme Darmanin
@@ -470,9 +494,33 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4921886541118113536, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: "Propri\xE9taire de grandes colocations"
+      objectReference: {fileID: 0}
     - target: {fileID: 5019639862021653728, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040787212890006518, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 216.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040787212890006518, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173717047955143139, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: "Propri\xE9taire de la colocation de Kevin"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5553424888698434732, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: Militant pour le droit au logement
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069174764531794204, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: 'Heure d''attente : 3 jours'
       objectReference: {fileID: 0}
     - target: {fileID: 6182452287379947540, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
@@ -482,9 +530,17 @@ PrefabInstance:
       propertyPath: m_text
       value: Franck
       objectReference: {fileID: 0}
+    - target: {fileID: 6935596282053489917, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: "Cousin fran\xE7ais"
+      objectReference: {fileID: 0}
     - target: {fileID: 6954492587557774496, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585315487707472318, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
+      propertyPath: m_text
+      value: Jeune dynamique en coloc
       objectReference: {fileID: 0}
     - target: {fileID: 8480645996176576929, guid: 3187207cb8b95ee438456f25431aab77, type: 3}
       propertyPath: m_SizeDelta.y
