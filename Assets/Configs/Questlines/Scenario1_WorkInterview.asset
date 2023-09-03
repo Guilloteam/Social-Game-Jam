@@ -54,7 +54,9 @@ MonoBehaviour:
     answers:
     - answer: "Merci \xE0 demain !"
       conditions: []
-      effects: []
+      effects:
+      - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        to_add: 1
       dialogue_entries: []
       unlocks: []
     checkpoint: 0

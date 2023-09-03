@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: CV_01
   m_EditorClassIdentifier: 
   name: Emily
-  age: 20
-  diplome: Diploma truc truc
-  experience: Exp truc truc
-  contact: Contact truc truc
-  passion: "Passion-p\xEAche"
-  origine_country: Bratislava
+  age: 30 ans
+  french_level: "A1 (d\xE9butante)"
+  diplome: Bac +5 en communication
+  experience: "3 ans d'exp\xE9rience pro"
+  contact: <b>Thierry</b>, son petit ami (Erasmus)
+  passion: Voyager, les rencontres, la France
+  origine_country: <b>Gzirdiana</b>, pays avec un accord de libre-circulation avec
+    la France
   portrait: {fileID: 21300000, guid: 703fdac6c970e2e47b6662dc753920cb, type: 3}
