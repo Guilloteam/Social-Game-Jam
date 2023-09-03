@@ -10,12 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
-  m_Name: Scenario2_Consulate
+  m_Name: Scenario2_Papers_Consulate
   m_EditorClassIdentifier: 
   play_mode: 0
   entries:
-  - dialogue_line: 
+  - dialogue_line: "...Des papiers fran\xE7ais ? D\xE9sol\xE9, ici on peut vous aider
+      \xE0 refaire vos papiers Vallaniais. Je crois que ce n\u2019est pas ce que
+      vous cherchez\u2026 "
     unlocks: []
     character: {fileID: 11400000, guid: 8141e59871bbf454d8bfb4d2ad430292, type: 2}
-    answers: []
+    answers:
+    - answer: ...
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
     checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 

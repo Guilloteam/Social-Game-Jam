@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Work2
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  entries:
+  - dialogue_line: Bonjour, je peux vous aider ?
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: "Bonjour, je m\u2019appelle John. Je vous ai envoy\xE9 ma candidature
+        il y a quelques temps, mais je n\u2019ai toujours pas re\xE7u de r\xE9ponse.
+        Je voulais donc m\u2019assurer que vous l\u2019ayez bien re\xE7ue."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Laissez-moi v\xE9rifier, je vous demande quelques secondes"
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: ...
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Alors j\u2019ai regard\xE9 votre candidature\u2026on a pas l\u2019habitude
+      de recevoir des personnes aussi qualifi\xE9es pour ce type de poste mais vous
+      m\u2019avez l\u2019air motiv\xE9 et s\xE9rieux. "
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Aie ! Je vois\u2026malheureusement \xE7a ne sera pas possible."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: "S\u2019il vous pla\xEEt, je suis pr\xEAt \xE0 tout faire."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "J\u2019aurai juste besoin de votre permis de travail pour pr\xE9parer
+      votre dossier."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: "Je suis d\xE9sol\xE9, mais je n\u2019ai pas encore re\xE7u mon permis
+        de travail\u2026"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Ecoutez, pour des personnes dans votre situation, je n\u2019ai
+      qu\u2019une seule solution. Je peux vous proposer un poste qui ne sera pas
+      d\xE9clar\xE9."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Pour le risque que je prends, je serai oblig\xE9 de vous payer
+      moins que la r\xE9mun\xE9ration pour un poste d\xE9clar\xE9. J\u2019esp\xE8re
+      que soulever des charges et travailler de nuit ne vous fait pas peur."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: "Non, j\u2019ai vraiment besoin de travailler\u2026"
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+  - dialogue_line: "Bon... Vous commencez la semaine prochaine. Rendez-vous ici \xE0
+      9h lundi."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8b54185d50e3d4ea48d31b1208e12aa7, type: 2}
+    answers:
+    - answer: Merci beaucoup, j'y serai !
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        to_add: 1
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
