@@ -30,6 +30,7 @@ public class DialogueDisplay : MonoBehaviour
 
     IEnumerator Start()
     {
+        SoundParamManager.instance.SetAnimDirection(1);
         canvas_group = GetComponent<CanvasGroup>();
         character_portrait.sprite = entry.character.dialogue_portrait;
         character_name_text.text = entry.character.name;
@@ -145,6 +146,7 @@ public class DialogueDisplay : MonoBehaviour
 
     public IEnumerator DestroyCoroutine()
     {
+        SoundParamManager.instance.SetAnimDirection(-1);
         for (float time = 0; time < fade_duration; time += Time.deltaTime)
         { 
             canvas_group.alpha = 1 - time / fade_duration;
