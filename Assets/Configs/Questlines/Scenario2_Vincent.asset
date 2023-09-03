@@ -115,7 +115,8 @@ MonoBehaviour:
                   conditions: []
                   effects: []
                   dialogue_entries: []
-                  unlocks: []
+                  unlocks:
+                  - {fileID: 11400000, guid: d7d1eaf2dbfad47128e12bad6a524362, type: 2}
                 checkpoint: 0
                 translated: 0
                 translated_dialogue_line: 
