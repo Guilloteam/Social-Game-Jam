@@ -272,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4144450198161461838, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_Name
-      value: Work Lost Slideshow
+      value: Timelipse Slideshow
       objectReference: {fileID: 0}
     - target: {fileID: 5702428977870700774, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_IsActive
@@ -280,12 +280,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5795171200582490799, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_text
-      value: "Tu as un accident du travail. Sur un faux mouvement, tu te bloques
-        le dos. Incapable de continuer de porter des charges lourdes, tu es cong\xE9di\xE9
-        par ton employeur. Tes \xE9conomies s\u2019\xE9puisent. Apr\xE8s 3 jours
-        de retard de loyer, <b>M.Slumlord</b> envoie ses gars te menacer. Tu te retrouves
-        \xE0 la rue et dors dans des gares pendant plusieurs nuits. Rappelle-toi
-        des rencontres faites pendant ton parcours pour t\u2019en sortir."
+      value: "Le temps passe. Le nouveau travail en cuisine est exigeant et dur physiquement
+        mais se passe bien. <b>Muriel</b> te fournit des fiches de paie pour faciliter
+        tes futures d\xE9marches.\r\nLe squat a \xE9t\xE9 expuls\xE9 mais gr\xE2ce
+        \xE0 ton travail, <b>M. Slumlord</b> accepte de te reprendre. Tu as enfin
+        r\xE9uni les \xE9l\xE9ments n\xE9cessaires pour retourner \xE0 la Pr\xE9fecture.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5795171200582490799, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_fontAsset

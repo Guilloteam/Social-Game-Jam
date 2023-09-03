@@ -8,6 +8,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 418885984234539450, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 829727521523845462, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d229799919823cd4baf5e325229c095d, type: 3}
+    - target: {fileID: 1228370465839646826, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_text
+      value: "Pour ton arriv\xE9e, un cousin fran\xE7ais \xE9loign\xE9, <b>Fergus</b>,
+        a accept\xE9 de t\u2019accueillir."
+      objectReference: {fileID: 0}
     - target: {fileID: 1944042936273422106, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -88,16 +101,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3040462513053944900, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s deux ann\xE9es enti\xE8res \xE0 \xE9conomiser de l\u2019argent,
+        tu ach\xE8tes un billet d\u2019avion aller pour la France, sans retour."
+      objectReference: {fileID: 0}
     - target: {fileID: 4105832774288904270, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_text
-      value: "Apr\xE8s quelques ann\xE9es de relation \xE0 distance, tu d\xE9cides
-        de t\u2019installer en France pour rejoindre <b>Thierry</b>, ton petit copain
-        rencontr\xE9 pendant ton ann\xE9e Erasmus."
+      value: "Tu as d\xE9cid\xE9 de quitter ton pays la <b>Vallania</b>, en raison
+        de l\u2019instabilit\xE9 \xE9conomique entra\xEEn\xE9e par les bouleversements
+        politiques r\xE9cents qui l\u2019ont frapp\xE9. Tu souhaites trouver en France
+        une vie meilleure, pour toi mais aussi pour soutenir ta famille rest\xE9e
+        au pays qui compte sur toi. Tu sais n\xE9anmoins que tu n\u2019as pas de
+        permis de travail en France.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4144450198161461838, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
       propertyPath: m_Name
-      value: Intro Slideshow
+      value: Intro Slideshow level 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5265544299550750707, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb5cf25ce63d4df4e87ec8f3bfed46b4, type: 3}
+    - target: {fileID: 5795171200582490799, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_text
+      value: 'Chapitre 2 : <b>John</b>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019944125752665399, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb5cf25ce63d4df4e87ec8f3bfed46b4, type: 3}
+    - target: {fileID: 7198999187830083095, guid: c338f2a9a1634dd4aa984d52790a4182, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb5cf25ce63d4df4e87ec8f3bfed46b4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
