@@ -1111,7 +1111,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5219868026122360656, guid: 83e185dfea0235b43b59ad8bdbf47a10, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219868026122360656, guid: 83e185dfea0235b43b59ad8bdbf47a10, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5520804205947808668, guid: 83e185dfea0235b43b59ad8bdbf47a10, type: 3}
       propertyPath: m_Name
