@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue_panel: {fileID: 719466730}
-  slideshow_panel: {fileID: 0}
+  slideshow_panel: {fileID: 1072919564}
 --- !u!114 &1072919566
 MonoBehaviour:
   m_ObjectHideFlags: 0
