@@ -16,4 +16,13 @@ MonoBehaviour:
   dialogue_portrait: {fileID: 21300000, guid: eb681951f1d8b5d448ca4f8080eb8eba, type: 3}
   minimap_icon: {fileID: 21300000, guid: 508d50c2cdff2764ea061c5a62ca846c, type: 3}
   tooltip: "Propri\xE9taire de tr\xE8s grandes colocations"
-  default_dialogue_config: {fileID: 11400000, guid: 8c6deaa07a801471aaff18652ed7116b, type: 2}
+  default_dialogue_config: {fileID: 11400000, guid: 406852fb407c68a4b829e54208609a8e, type: 2}
+  default_dialogues:
+  - conditions:
+    - condition_type: 1
+      condition_operator: 1
+      variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+      condition_value: 0
+      character_value: {fileID: 0}
+      expected_unlock_state: 0
+    questline: {fileID: 11400000, guid: cb5add7a058f242a29244946bf4bb593, type: 2}

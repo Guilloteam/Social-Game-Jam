@@ -16,14 +16,14 @@ public class IntroScreen : MonoBehaviour
     void Start()
     {
         main_canvas_group = GetComponent<CanvasGroup>();
-        slides = new CanvasGroup[transform.childCount];
+        slides = new CanvasGroup[transform.childCount-1];
         for(int i=0; i<slides.Length; i++)
         {
             slides[i] = transform.GetChild(i).GetComponent<CanvasGroup>();
         }
         button.onClick.AddListener(() =>
         {
-            if(slide_index + 2 >= slides.Length)
+            if(slide_index + 1 >= slides.Length)
             {
                 hide = true;
                 transition_ratio = 0;

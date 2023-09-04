@@ -80,6 +80,7 @@ public struct BranchResultConfig
     public ScenarioStepEffect[] effects;
     public DialogueEntry[] dialogue_entries;
     public QuestlineConfig[] unlocks;
+    public bool trigger_ending;
 
     public bool is_available 
     { 

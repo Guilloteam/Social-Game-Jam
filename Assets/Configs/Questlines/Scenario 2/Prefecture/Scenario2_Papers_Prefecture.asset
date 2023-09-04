@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Papers_Prefecture
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: Bonjour ! De quoi avez-vous besoin ?
+    unlocks:
+    - {fileID: 0}
+    character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+    answers:
+    - answer: C'est tout bon merci
+      conditions: []
+      effects: []
+      dialogue_entries:
+      - dialogue_line: Vous avez fait 3h de queue juste pour me faire perdre mon
+          temps ? Vraiment ?
+        unlocks: []
+        character: {fileID: 11400000, guid: 8141e59871bbf454d8bfb4d2ad430292, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+      trigger_ending: 0
+    - answer: "Bonjour, c'est pour une demande de r\xE9gularisation"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+        condition_value: 0
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "...Vous \xEAtes au bon endroit !"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Ouf, merci !
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: " Pour constituer votre dossier, il faut au moins que vous
+          puissiez justifier d\u2019un domicile et d\u2019un travail. Avez-vous les
+          pi\xE8ces justificatives n\xE9cessaires ?"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Non, je n'ai rien...
+          conditions: []
+          effects:
+          - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+            to_add: 1
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Revenez quand vous aurez les papiers n\xE9cessaires."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+      trigger_ending: 0
+    - answer: "Bonjour, j'ai les papiers que vous m'avez demand\xE9s"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Mmm, une demande de r\xE9gularisation. Faites voir votre
+          attestation de domiciliation\u2026"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Parfait, et la pi\xE8ce d'identit\xE9 de la personne qui
+          signe l'attestation ?"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Ah ? Il faut sa pi\xE8ce d'identit\xE9 ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Je suis d\xE9sol\xE9, mais je ne peux pas accepter votre
+          dossier dans ces conditions, revenez quand vous aurez tous les documents. "
+        unlocks:
+        - {fileID: 11400000, guid: 0ab0823a548ca6341af47df800ec1620, type: 2}
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Ah... Ca va \xEAtre rapide, je reviens tout de suite !"
+          conditions: []
+          effects:
+          - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+            to_add: 2
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+      trigger_ending: 0
+    - answer: "Bonjour, j'ai les derniers papiers que vous m'avez demand\xE9s"
+      conditions:
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+        condition_value: 2
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      - condition_type: 1
+        condition_operator: 1
+        variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        condition_value: 1
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Ah, j\u2019ai \xE0 peine regard\xE9 votre dossier, je vois
+          d\xE9j\xE0 qu\u2019il manque un document de votre employeur attestant de
+          votre activit\xE9 !"
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais je ne peux pas avoir d'emploi l\xE9gal sans titre de s\xE9jour
+            !\r"
+          conditions: []
+          effects:
+          - variable: {fileID: 11400000, guid: 809470022f03244918fc800eae2b2f4f, type: 2}
+            to_add: 3
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: ' Il faut que votre employeur reconnaisse que vous travaillez
+          pour lui !'
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Vous voulez qu'il d\xE9clare qu'il est dans l'ill\xE9galit\xE9
+            ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Je ne peux pas vous dire mieux, allez demander \xE0 votre
+          employeur de bien vous reconna\xEEtre."
+        unlocks:
+        - {fileID: 11400000, guid: b2f1bd51d83ac3044a9abc75f375deaa, type: 2}
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+      trigger_ending: 0
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

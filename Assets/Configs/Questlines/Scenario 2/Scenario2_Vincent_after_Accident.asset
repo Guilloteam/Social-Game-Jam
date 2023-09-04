@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Vincent_after_Accident
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "Salut John, je ne peux pas dire que je suis ravi de te voir.
+      J\u2019imagine que tu as des probl\xE8mes\u2026"
+    unlocks: []
+    character: {fileID: 11400000, guid: 9f5b1feb0cfcd4a57b408230a26597d6, type: 2}
+    answers:
+    - answer: "Oui, c\u2019est gal\xE8re, j\u2019ai vraiment besoin de trouver o\xF9
+        dormir cette nuit."
+      conditions:
+      - condition_type: 1
+        condition_operator: 2
+        variable: {fileID: 11400000, guid: 2e3e79b13244eca49a75a5d330169b7b, type: 2}
+        condition_value: 3
+        character_value: {fileID: 0}
+        expected_unlock_state: 0
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "\xC9coute, comme je t\u2019avais dit c\u2019est compliqu\xE9
+      et pas du tout stable, mais je peux te trouver une place dans un squat. J\u2019ai
+      une adresse en t\xEAte o\xF9 la proc\xE9dure d\u2019expulsion vient de commencer.
+      \xC7a te laisse au moins deux mois pour te retaper."
+    unlocks: []
+    character: {fileID: 11400000, guid: 9f5b1feb0cfcd4a57b408230a26597d6, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Je comprends, les employeurs au black vous l\xE2chent d\xE8s
+      le premier p\xE9pin..."
+    unlocks: []
+    character: {fileID: 11400000, guid: 9f5b1feb0cfcd4a57b408230a26597d6, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "J\u2019ai peut-\xEAtre une solution pour toi. Mon amie Muriel
+      tient un restaurant, elle a souvent besoin de gens. Elle est fiable, et connait
+      bien ton cas de figure\u2026"
+    unlocks:
+    - {fileID: 11400000, guid: d7d1eaf2dbfad47128e12bad6a524362, type: 2}
+    character: {fileID: 11400000, guid: 9f5b1feb0cfcd4a57b408230a26597d6, type: 2}
+    answers:
+    - answer: Merci ! J'irai la voir.
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

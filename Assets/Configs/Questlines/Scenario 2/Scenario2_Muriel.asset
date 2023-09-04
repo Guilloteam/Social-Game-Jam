@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Scenario2_Muriel
   m_EditorClassIdentifier: 
   play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 2685223350930896735, guid: 9d38aeba468e51a47bc111df4aba9fd7, type: 3}
   entries:
   - dialogue_line: "John, Vincent m\u2019a parl\xE9 de vous. \xC7a tombe bien, j\u2019ai
       besoin d\u2019un commis en cuisine."
@@ -35,6 +37,7 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
+      trigger_ending: 0
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
@@ -58,6 +61,7 @@ MonoBehaviour:
       effects: []
       dialogue_entries: []
       unlocks: []
+      trigger_ending: 0
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 
@@ -71,9 +75,13 @@ MonoBehaviour:
       conditions: []
       effects:
       - variable: {fileID: 11400000, guid: a70d1e2969ca0495e86efcbcd69bfeae, type: 2}
-        to_add: 2
+        to_add: 1
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 1
       dialogue_entries: []
-      unlocks: []
+      unlocks:
+      - {fileID: 11400000, guid: 950c40d366b5ef9428a797539becab26, type: 2}
+      trigger_ending: 0
     checkpoint: 0
     translated: 0
     translated_dialogue_line: 

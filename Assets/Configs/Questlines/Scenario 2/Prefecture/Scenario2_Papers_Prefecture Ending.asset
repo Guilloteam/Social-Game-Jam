@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Papers_Prefecture Ending
+  m_EditorClassIdentifier: 
+  play_mode: 3
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: Bonjour, faites moi voir votre dossier.
+    unlocks:
+    - {fileID: 0}
+    character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+    answers:
+    - answer: J'ai enfin tous les papiers. Cette fois c'est la bonne !
+      conditions: []
+      effects: []
+      dialogue_entries:
+      - dialogue_line: "Il semblerait effectivement que vous avez tous les documents
+          n\xE9cessaires pour prouver votre domiciliation et activit\xE9 en France.
+          Malheureusement, je ne pense pas que votre demande de titre de s\xE9jour
+          \u201Csalari\xE9\u201D sera accept\xE9e."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais comment c\u2019est possible ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Pour que ce titre de s\xE9jour soit accord\xE9, il aurait
+          fallu que votre employeur fasse les d\xE9marches n\xE9cessaires avant votre
+          venue en France..."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers: []
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "et qu\u2019il prouve que pour ce poste, il n\u2019a pas r\xE9ussi
+          \xE0 embaucher une personne d\xE9j\xE0 pr\xE9sente sur le march\xE9 du
+          travail fran\xE7ais, et en plus qu\u2019il paie la taxe OFII."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: "Mais quel employeur prendrait la peine de faire tout \xE7a ?"
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Je sais, je suis d\xE9sol\xE9e, le syst\xE8me est tr\xE8s
+          contraignant. Dans votre cas, il y a une autre l\xE9gislation qui s\u2019applique."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Faisons la appliquer alors. Il me manque quelque chose ?
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: "Malheureusement, pour vous c\u2019est trop t\xF4t\u2026Il
+          faut trois ans de pr\xE9sence minimum sur le territoire fran\xE7ais..."
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Trois an ?!
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      - dialogue_line: ...et 24 bulletins de salaire dont 8 sur les derniers 24 mois,
+          selon la circulaire Valls. Vous pouvez revenir dans 2 ans et demi si tout
+          va bien pour vous.
+        unlocks: []
+        character: {fileID: 11400000, guid: 6e1092b7a7da5422ca26716bba4f27d4, type: 2}
+        answers:
+        - answer: Ah...
+          conditions: []
+          effects: []
+          dialogue_entries: []
+          unlocks: []
+          trigger_ending: 0
+        checkpoint: 0
+        translated: 0
+        translated_dialogue_line: 
+        on_phone: 0
+      unlocks: []
+      trigger_ending: 0
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

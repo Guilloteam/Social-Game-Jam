@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public struct ConditionalQuestline
+{
+    public ConditionConfig[] conditions;
+    public QuestlineConfig questline;
+}
 [CreateAssetMenu()]
 public class CharacterConfig: ScriptableObject 
 {
@@ -11,4 +17,6 @@ public class CharacterConfig: ScriptableObject
     [TextAreaAttribute(3, 5)]
     public string tooltip;
     public QuestlineConfig default_dialogue_config;
+    public ConditionalQuestline[] default_dialogues;
+
 }

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_MonsieurGervais Default
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: "D\xE9sol\xE9, il n'y a plus de place dans la collocation. Une
+      jeune coll\xE8gue de Kevin vient de s'installer."
+    unlocks: []
+    character: {fileID: 11400000, guid: 8bf1c44ff909d40999e3a2e5c9fb0fe5, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0

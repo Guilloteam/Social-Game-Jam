@@ -51,6 +51,10 @@ public class QuestlineState
         {
             QuestlineManager.instance.ApplyScenarioEffect(effect);
         }
+        if (entry.answers[answer_index].trigger_ending)
+        {
+            QuestlineManager.instance.TriggerOutro();
+        }
         if (entry.answers[answer_index].dialogue_entries.Length > 0)
         {
             step_stack.Add(new StepStackElement { answer_index = answer_index, sequence_cursor = 0});
@@ -112,6 +116,13 @@ public class QuestlineState
     }
 }
 
+[System.Serializable]
+public class VariableState
+{
+    public VariableConfig variable;
+    public int value;
+}
+
 public class QuestlineManager : MonoBehaviour
 {
     public static QuestlineManager instance;
@@ -119,7 +130,7 @@ public class QuestlineManager : MonoBehaviour
     public DialogueDisplay outro_dialogue_display_prefab;
     public QuestlineConfig[] questlines;
     public QuestlineConfig[] initial_questlines;
-    public Dictionary<VariableConfig, int> variables = new Dictionary<VariableConfig, int>();
+    public List<VariableState> variables = new List<VariableState>();
 
     public List<QuestlineState> questline_states = new List<QuestlineState>();
 
@@ -144,11 +155,13 @@ public class QuestlineManager : MonoBehaviour
 
     public int GetVariable(VariableConfig variable)
     {
-        if(!variables.ContainsKey(variable))
+        for(int i=0; i<variables.Count(); i++)
         {
-            variables.Add(variable, variable.default_value);
+            if (variables[i].variable == variable)
+                return variables[i].value;
         }
-        return variables[variable];
+        variables.Add(new VariableState { variable = variable, value = variable.default_value });
+        return variable.default_value;
     }
 
     public void UpdateUnlockedCharacterList()
@@ -174,7 +187,12 @@ public class QuestlineManager : MonoBehaviour
 
     public void ApplyScenarioEffect(ScenarioStepEffect effect)
     {
-        variables[effect.variable] = effect.to_add;
+        for(int i=0; i<variables.Count(); i++)
+        {
+            if (variables[i].variable == effect.variable)
+                variables[i].value = effect.to_add;
+        }
+        variables.Add(new VariableState { variable = effect.variable, value = effect.to_add });
     }
 
     public QuestlineState PickQuestline(CharacterConfig character)
@@ -191,6 +209,23 @@ public class QuestlineManager : MonoBehaviour
         }
         QuestlineConfig default_questline_config = character.default_dialogue_config;
         questline_state = new QuestlineState { questline = default_questline_config, step_stack = new List<StepStackElement> { new StepStackElement { } } };
+        for(int i=0; i<character.default_dialogues.Length; i++)
+        {
+            bool valid = true;
+            for(int j=0; j < character.default_dialogues[i].conditions.Length; j++)
+            {
+                if (!character.default_dialogues[i].conditions[j].is_condition_filled)
+                {
+                    valid = false;
+                    break;
+                }
+            }
+            if(valid)
+            {
+                questline_state.questline = character.default_dialogues[i].questline;
+                break;
+            }
+        }
         questline_states.Add(questline_state);
 
         return questline_state;

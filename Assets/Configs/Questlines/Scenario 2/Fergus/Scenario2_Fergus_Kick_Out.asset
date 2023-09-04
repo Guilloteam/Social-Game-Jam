@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eded8f326a65c44b8c57214a88be2d7, type: 3}
+  m_Name: Scenario2_Fergus_Kick_Out
+  m_EditorClassIdentifier: 
+  play_mode: 0
+  post_slideshow:
+    prefab: {fileID: 0}
+  entries:
+  - dialogue_line: Ah John tu tombes bien, il faut qu'on parle !
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers:
+    - answer: "Bien s\xFBr, mais avant il faut que tu me refasse le certificat de..."
+      conditions: []
+      effects: []
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Je ne peux plus t\u2019h\xE9berger. On s\u2019est embrouill\xE9s
+      avec ma copine par rapport \xE0 ta pr\xE9sence, elle voudrait qu\u2019on retrouve
+      un peu d\u2019intimit\xE9..."
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers:
+    - answer: 'Mais... '
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 0
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Je comprends que ta situation est gal\xE8re mais si tu pouvais
+      trouver un logement rapidement, ce serait vraiment bien\u2026 Je t\u2019ai
+      trouv\xE9 deux annonces qui pourraient te convenir, tu pourras regarder ?"
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers:
+    - answer: "Ah... Oui bien s\xFBr..."
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 0
+      dialogue_entries: []
+      unlocks: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: Un certain Kevin cherche un colloc, et l'agence Slumlord a des
+      appartements disponibles, c'est un peu cher, mais les appartements partent
+      tellement vite en ville, qu'il faut savoir sauter sur toutes les occasions...
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers: []
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
+  - dialogue_line: "Et en attendant tu peux contacter Vincent, c\u2019est un ami
+      d\u2019amis. Si j\u2019ai bien compris, il est dans des collectifs de solidarit\xE9s
+      aux migrants, et il ouvre des squats. Peut-\xEAtre qu'il pourra te trouver
+      une solution en attendant."
+    unlocks: []
+    character: {fileID: 11400000, guid: 2f33a53d9d3bc44f6bd381329066dfe1, type: 2}
+    answers:
+    - answer: "Ah... Oui bien s\xFBr..."
+      conditions: []
+      effects:
+      - variable: {fileID: 11400000, guid: c10ed1ae2667747a78d4c6da361eb387, type: 2}
+        to_add: 0
+      dialogue_entries: []
+      unlocks:
+      - {fileID: 11400000, guid: 0f7fb827347034c4f9ccc2e4050b1187, type: 2}
+      - {fileID: 11400000, guid: 2e18bedde389c4a9c81691cae55a04c0, type: 2}
+      - {fileID: 11400000, guid: cb5add7a058f242a29244946bf4bb593, type: 2}
+    checkpoint: 0
+    translated: 0
+    translated_dialogue_line: 
+    on_phone: 0
